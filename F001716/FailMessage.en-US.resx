@@ -1,0 +1,2432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ER1024_" xml:space="preserve">
+    <value>/***************    CURRENT FAILURES    ***************/</value>
+  </data>
+  <data name="ER1024_LOW_BD_CUR" xml:space="preserve">
+    <value>Low Board Current</value>
+  </data>
+  <data name="ER1025_HI_BD_CUR" xml:space="preserve">
+    <value>High Board Current</value>
+  </data>
+  <data name="ER1026_LOW_DUT_CUR" xml:space="preserve">
+    <value>Low DUT Current</value>
+  </data>
+  <data name="ER1027_HI_DUT_CUR" xml:space="preserve">
+    <value>High DUT Current</value>
+  </data>
+  <data name="ER1028_LOW_FW_CUR" xml:space="preserve">
+    <value>Low Forward Current</value>
+  </data>
+  <data name="ER1029_HI_FW_CUR" xml:space="preserve">
+    <value>High Forward Current</value>
+  </data>
+  <data name="ER1030_LOW_UNIT_CUR" xml:space="preserve">
+    <value>Low Unit Current</value>
+  </data>
+  <data name="ER1031_HI_UNIT_CUR" xml:space="preserve">
+    <value>High Unit Current</value>
+  </data>
+  <data name="ER1032_LOW_MOTOR_CUR" xml:space="preserve">
+    <value>Low Motor Current</value>
+  </data>
+  <data name="ER1033_HI_MOTOR_CUR" xml:space="preserve">
+    <value>High Motor Current</value>
+  </data>
+  <data name="ER1034_DUT_SHORT" xml:space="preserve">
+    <value>DUT Short</value>
+  </data>
+  <data name="ER1035_DEAD_UNIT" xml:space="preserve">
+    <value>Dead Unit</value>
+  </data>
+  <data name="ER1036_LOW_SLEEP_CUR" xml:space="preserve">
+    <value>Low Sleep Current</value>
+  </data>
+  <data name="ER1037_HI_SLEEP_CUR" xml:space="preserve">
+    <value>High Sleep Current</value>
+  </data>
+  <data name="ER1038_LOW_IDLE_CUR" xml:space="preserve">
+    <value>Low Idle Current</value>
+  </data>
+  <data name="ER1039_HI_IDLE_CUR" xml:space="preserve">
+    <value>High Idle Current</value>
+  </data>
+  <data name="ER1040_LOW_CONT_CUR" xml:space="preserve">
+    <value>Low Continuous Current</value>
+  </data>
+  <data name="ER1041_HI_CONT_CUR" xml:space="preserve">
+    <value>High Continuous Current</value>
+  </data>
+  <data name="ER1042_LOW_PEAK_CUR" xml:space="preserve">
+    <value>Low Peak Current</value>
+  </data>
+  <data name="ER1043_HI_PEAK_CUR" xml:space="preserve">
+    <value>High Peak Current</value>
+  </data>
+  <data name="ER1044_LOW_VLD_CUR" xml:space="preserve">
+    <value>Low VLD Current</value>
+  </data>
+  <data name="ER1045_HI_VLD_CUR" xml:space="preserve">
+    <value>High VLD Current</value>
+  </data>
+  <data name="ER1046_LOW_HOR1_VLD_CUR" xml:space="preserve">
+    <value>Low Horizontal 1 VLD Current</value>
+  </data>
+  <data name="ER1047_HI_HOR1_VLD_CUR" xml:space="preserve">
+    <value>High Horizontal 1 VLD Current</value>
+  </data>
+  <data name="ER1048_LOW_HOR2_VLD_CUR" xml:space="preserve">
+    <value>Low Horizontal 2 VLD Current</value>
+  </data>
+  <data name="ER1049_HI_HOR2_VLD_CUR" xml:space="preserve">
+    <value>High Horizontal 2 VLD Current</value>
+  </data>
+  <data name="ER1050_LOW_VERT_VLD_CUR" xml:space="preserve">
+    <value>Low Vertical VLD Current</value>
+  </data>
+  <data name="ER1051_HI_VERT_VLD_CUR" xml:space="preserve">
+    <value>High Vertical VLD Current</value>
+  </data>
+  <data name="ER1052_LOW_LEFT_VLD_CUR" xml:space="preserve">
+    <value>Low Left VLD Current</value>
+  </data>
+  <data name="ER1053_HI_LEFT_VLD_CUR" xml:space="preserve">
+    <value>High Left VLD Current</value>
+  </data>
+  <data name="ER1054_LOW_RIGHT_VLD_CUR" xml:space="preserve">
+    <value>Low Right VLD Current</value>
+  </data>
+  <data name="ER1055_HI_RIGHT_VLD_CUR" xml:space="preserve">
+    <value>High Right VLD Current</value>
+  </data>
+  <data name="ER1056_NO_PRE_FW_CUR" xml:space="preserve">
+    <value>No Pre Forward Current</value>
+  </data>
+  <data name="ER1057_VLD_CURRENT_RISE" xml:space="preserve">
+    <value>VLD Current Rise</value>
+  </data>
+  <data name="ER1058_LOW_LEFT_UNIT_CUR" xml:space="preserve">
+    <value>Low Left Unit Current</value>
+  </data>
+  <data name="ER1059_HI_LEFT_UNIT_CUR" xml:space="preserve">
+    <value>High Left Unit Current</value>
+  </data>
+  <data name="ER1060_LOW_RIGHT_UNIT_CUR" xml:space="preserve">
+    <value>Low Right Unit Current</value>
+  </data>
+  <data name="ER1061_HI_RIGHT_UNIT_CUR" xml:space="preserve">
+    <value>High Right Unit Current</value>
+  </data>
+  <data name="ER1062_LOW_LEFT_MTR_CUR" xml:space="preserve">
+    <value>Low Left Motor Current</value>
+  </data>
+  <data name="ER1063_HI_LEFT_MTR_CUR" xml:space="preserve">
+    <value>High Left Motor Current</value>
+  </data>
+  <data name="ER1064_LOW_RIGHT_MTR_CUR" xml:space="preserve">
+    <value>Low Right Motor Current</value>
+  </data>
+  <data name="ER1065_HI_RIGHT_MTR_CUR" xml:space="preserve">
+    <value>High Right Motor Current</value>
+  </data>
+  <data name="ER1066_LOW_FLIP_CUR" xml:space="preserve">
+    <value>Low Flipper Current</value>
+  </data>
+  <data name="ER1067_HI_FLIP_CUR" xml:space="preserve">
+    <value>High Flipper Current</value>
+  </data>
+  <data name="ER1068_LOW_5V_CUR" xml:space="preserve">
+    <value>Low 5V Current</value>
+  </data>
+  <data name="ER1069_HI_5V_CUR" xml:space="preserve">
+    <value>High 5V Current</value>
+  </data>
+  <data name="ER1070_LOW_3V_CUR" xml:space="preserve">
+    <value>Low 3V Current</value>
+  </data>
+  <data name="ER1071_HI_3V_CUR" xml:space="preserve">
+    <value>High 3V Current</value>
+  </data>
+  <data name="ER1072_HOR1_VLD_RISE" xml:space="preserve">
+    <value>Horizontal 1 VLD Rise</value>
+  </data>
+  <data name="ER1073_HOR1_NO_PRE" xml:space="preserve">
+    <value>Horizontal 1 No Pre-Current</value>
+  </data>
+  <data name="ER1074_HOR2_VLD_RISE" xml:space="preserve">
+    <value>Horizontal 2 VLD Rise</value>
+  </data>
+  <data name="ER1075_HOR2_NO_PRE" xml:space="preserve">
+    <value>Horizontal 2 No Pre-Current</value>
+  </data>
+  <data name="ER1076_VERT_VLD_RISE" xml:space="preserve">
+    <value>Vertical VLD Rise</value>
+  </data>
+  <data name="ER1077_VERT_NO_PRE" xml:space="preserve">
+    <value>Vertical No Pre-Current</value>
+  </data>
+  <data name="ER1078_LEFT_VLD_RISE" xml:space="preserve">
+    <value>Left VLD Rise</value>
+  </data>
+  <data name="ER1079_LEFT_NO_PRE" xml:space="preserve">
+    <value>Left No Pre-Current</value>
+  </data>
+  <data name="ER1080_RIGHT_VLD_RISE" xml:space="preserve">
+    <value>Right VLD Rise</value>
+  </data>
+  <data name="ER1081_RIGHT_NO_PRE" xml:space="preserve">
+    <value>Right No Pre-Current</value>
+  </data>
+  <data name="ER1082_THREE_VLD_HIGH" xml:space="preserve">
+    <value>High VLD 1, VLD 2, and VLD 3 Current</value>
+  </data>
+  <data name="ER1083_ONE_THREE_VLD_HIGH" xml:space="preserve">
+    <value>High VLD 1 and VLD 3 Current</value>
+  </data>
+  <data name="ER1084_ONE_TWO_VLD_HIGH" xml:space="preserve">
+    <value>High VLD 1 and VLD 2 Current</value>
+  </data>
+  <data name="ER1085_TWO_THREE_VLD_HIGH" xml:space="preserve">
+    <value>High VLD 2 and VLD 3 Current</value>
+  </data>
+  <data name="ER1086_LOW_ILLUM_CUR" xml:space="preserve">
+    <value>Low Illumination Current</value>
+  </data>
+  <data name="ER1087_HI_ILLUM_CUR" xml:space="preserve">
+    <value>High Illumination Current</value>
+  </data>
+  <data name="ER1088_LOW_STANDBY_CUR" xml:space="preserve">
+    <value>Low Unit Standby Current</value>
+  </data>
+  <data name="ER1089_HI_STANDBY_CUR" xml:space="preserve">
+    <value>High Unit Standby Current</value>
+  </data>
+  <data name="ER1090_LOW_ACT_CUR" xml:space="preserve">
+    <value>Low Unit Active Current</value>
+  </data>
+  <data name="ER1091_HI_ACT_CUR" xml:space="preserve">
+    <value>High Unit Active Current</value>
+  </data>
+  <data name="ER1092_BLOWN_FUSE" xml:space="preserve">
+    <value>Blown Fuse</value>
+  </data>
+  <data name="ER1093_LOW_CHARGE_CUR" xml:space="preserve">
+    <value>Low Charge Current</value>
+  </data>
+  <data name="ER1094_HI_CHARGE_CUR" xml:space="preserve">
+    <value>High Charge Current</value>
+  </data>
+  <data name="ER1095_LOW_AIMER_CUR" xml:space="preserve">
+    <value>Low Aimer Current</value>
+    <comment>Low Aimer Current</comment>
+  </data>
+  <data name="ER1096_HIGH_AIMER_CUR" xml:space="preserve">
+    <value>High Aimer Current</value>
+    <comment>High Aimer Current</comment>
+  </data>
+  <data name="ER1097_LOW_IC_TEM" xml:space="preserve">
+    <value>Low IC Temperature</value>
+    <comment>Low IC Temperature</comment>
+  </data>
+  <data name="ER1098_HIGH_IC_TEM" xml:space="preserve">
+    <value>High IC Temperature</value>
+    <comment>High IC Temperature</comment>
+  </data>
+  <data name="ER1280_" xml:space="preserve">
+    <value>/***************    BEEPER  FAILURES    ***************/</value>
+  </data>
+  <data name="ER1280_NO_BEEP" xml:space="preserve">
+    <value>No Beep</value>
+  </data>
+  <data name="ER1281_RAZZ" xml:space="preserve">
+    <value>Razz</value>
+  </data>
+  <data name="ER1282_TRIPLE_BEEP" xml:space="preserve">
+    <value>Triple Beep Fail</value>
+  </data>
+  <data name="ER1283_RASPY_BEEP" xml:space="preserve">
+    <value>Raspy Beeper</value>
+  </data>
+  <data name="ER1284_LOW_BEEP" xml:space="preserve">
+    <value>Low Beep</value>
+  </data>
+  <data name="ER1285_BEEPER_VOLUME" xml:space="preserve">
+    <value>Beeper Volume Error</value>
+  </data>
+  <data name="ER1286_AUX_BEEPER" xml:space="preserve">
+    <value>Aux Beeper Fail</value>
+  </data>
+  <data name="ER1287_AUX_BEEPER_OFF" xml:space="preserve">
+    <value>Aux Beeper Not On</value>
+  </data>
+  <data name="ER1536_" xml:space="preserve">
+    <value>/****************      LED FAILURES      ***************/</value>
+  </data>
+  <data name="ER1536_LED_OFF" xml:space="preserve">
+    <value>Led Off</value>
+  </data>
+  <data name="ER1537_YELLOW_OFF" xml:space="preserve">
+    <value>Yellow Led Off</value>
+  </data>
+  <data name="ER1538_RED_OFF" xml:space="preserve">
+    <value>Red Led Off</value>
+  </data>
+  <data name="ER1539_GREEN_OFF" xml:space="preserve">
+    <value>Green Led Off</value>
+  </data>
+  <data name="ER1540_BLUE_OFF" xml:space="preserve">
+    <value>Blue Led Off</value>
+  </data>
+  <data name="ER1541_WHITE_OFF" xml:space="preserve">
+    <value>White LED Off</value>
+  </data>
+  <data name="ER1542_LEFT_YELLOW_OFF" xml:space="preserve">
+    <value>Left Yellow Led Off</value>
+  </data>
+  <data name="ER1543_RIGHT_YELLOW_OFF" xml:space="preserve">
+    <value>Right Yellow Led Off</value>
+  </data>
+  <data name="ER1544_LEFT_BLUE_OFF" xml:space="preserve">
+    <value>Left Blue Led Off</value>
+  </data>
+  <data name="ER1545_RIGHT_BLUE_OFF" xml:space="preserve">
+    <value>Right Blue Led Off</value>
+  </data>
+  <data name="ER1546_AUX_LED_OFF" xml:space="preserve">
+    <value>Aux Led Off</value>
+  </data>
+  <data name="ER1552_LED_ON" xml:space="preserve">
+    <value>Led On</value>
+  </data>
+  <data name="ER1553_YELLOW_ON" xml:space="preserve">
+    <value>Yellow Led On</value>
+  </data>
+  <data name="ER1554_RED_ON" xml:space="preserve">
+    <value>Red Led On</value>
+  </data>
+  <data name="ER1555_GREEN_ON" xml:space="preserve">
+    <value>Green Led On</value>
+  </data>
+  <data name="ER1556_BLUE_ON" xml:space="preserve">
+    <value>Blue Led On</value>
+  </data>
+  <data name="ER1557_WHITE_ON" xml:space="preserve">
+    <value>White LED On</value>
+  </data>
+  <data name="ER1558_LEFT_YELLOW_ON" xml:space="preserve">
+    <value>Left Yellow Led On</value>
+  </data>
+  <data name="ER1559_RIGHT_YELLOW_ON" xml:space="preserve">
+    <value>Right Yellow Led On</value>
+  </data>
+  <data name="ER1560_BOTH_LEDS_ON" xml:space="preserve">
+    <value>Both Leds On</value>
+  </data>
+  <data name="ER1561_LEFT_BLUE_ON" xml:space="preserve">
+    <value>Left Blue On</value>
+  </data>
+  <data name="ER1562_RIGHT_BLUE_ON" xml:space="preserve">
+    <value>Right Blue On</value>
+  </data>
+  <data name="ER1563_AUX_LED_ON" xml:space="preserve">
+    <value>Aux Led On</value>
+  </data>
+  <data name="ER1568_BOTH_LEDS_FLASH" xml:space="preserve">
+    <value>Both Leds Flash</value>
+  </data>
+  <data name="ER1584_IN_STAND" xml:space="preserve">
+    <value>No Yellow Led In Stand</value>
+  </data>
+  <data name="ER1585_LAMP1" xml:space="preserve">
+    <value>Lamp One Failure</value>
+  </data>
+  <data name="ER1586_LAMP2" xml:space="preserve">
+    <value>Lamp Two Failure</value>
+  </data>
+  <data name="ER1587_LED1" xml:space="preserve">
+    <value>LED1 Failure</value>
+  </data>
+  <data name="ER1588_LED2" xml:space="preserve">
+    <value>LED2 Failure</value>
+  </data>
+  <data name="ER1589_LED3" xml:space="preserve">
+    <value>LED3 Failure</value>
+  </data>
+  <data name="ER1590_LED4" xml:space="preserve">
+    <value>LED4 Failure</value>
+  </data>
+  <data name="ER1591_LED5" xml:space="preserve">
+    <value>LED5 Failure</value>
+  </data>
+  <data name="ER1592_LEFT_LED_SLOW" xml:space="preserve">
+    <value>Left LED too slower</value>
+    <comment>Left LED too slower</comment>
+  </data>
+  <data name="ER1593_LED_HEX" xml:space="preserve">
+    <value>LED HEX Failure</value>
+    <comment>LED HEX Failure</comment>
+  </data>
+  <data name="ER1791_BARCODE2" xml:space="preserve">
+    <value>Barcode Fail 2</value>
+    <comment>Barcode Fail 2</comment>
+  </data>
+  <data name="ER1792_" xml:space="preserve">
+    <value>/***************     SCAN  FAILURES     ***************/</value>
+  </data>
+  <data name="ER1792_BARCODE" xml:space="preserve">
+    <value>Barcode Fail</value>
+  </data>
+  <data name="ER1793_SCAN_COUNT" xml:space="preserve">
+    <value>Scan Count Fail</value>
+  </data>
+  <data name="ER1794_RECALL_DEFAULTS" xml:space="preserve">
+    <value>No Recall Defaults</value>
+  </data>
+  <data name="ER1795_LOW_SCAN_COUNT" xml:space="preserve">
+    <value>Low Scan Count</value>
+  </data>
+  <data name="ER1796_HIGH_SCAN_COUNT" xml:space="preserve">
+    <value>High Scan Count</value>
+  </data>
+  <data name="ER1797_NO_READ" xml:space="preserve">
+    <value>No Barcode Read</value>
+  </data>
+  <data name="ER1798_MIS_READ" xml:space="preserve">
+    <value>Barcode Mis Read</value>
+  </data>
+  <data name="ER1799_POOR_READ" xml:space="preserve">
+    <value>Poor Barcode Read</value>
+  </data>
+  <data name="ER1800_POOR_READ1" xml:space="preserve">
+    <value>Poor Barcode Read 1</value>
+  </data>
+  <data name="ER1801_POOR_READ2" xml:space="preserve">
+    <value>Poor Barcode Read 2</value>
+  </data>
+  <data name="ER1802_POOR_READ3" xml:space="preserve">
+    <value>Poor Barcode Read 3</value>
+  </data>
+  <data name="ER1803_POOR_READ4" xml:space="preserve">
+    <value>Poor Barcode Read 4</value>
+  </data>
+  <data name="ER1804_POOR_READ5" xml:space="preserve">
+    <value>Poor Barcode Read 5</value>
+  </data>
+  <data name="ER1805_POOR_READ6" xml:space="preserve">
+    <value>Poor Barcode Read 6</value>
+  </data>
+  <data name="ER1806_POOR_READ7" xml:space="preserve">
+    <value>Poor Barcode Read 7</value>
+  </data>
+  <data name="ER1807_POOR_READ8" xml:space="preserve">
+    <value>Poor Barcode Read 8</value>
+  </data>
+  <data name="ER1808_POOR_READ9" xml:space="preserve">
+    <value>Poor Barcode Read 9</value>
+  </data>
+  <data name="ER1809_POOR_READ10" xml:space="preserve">
+    <value>Poor Barcode Read 10</value>
+  </data>
+  <data name="ER1810_NOT_AGGRESSIVE" xml:space="preserve">
+    <value>Not Aggressive</value>
+  </data>
+  <data name="ER1811_IMAGER" xml:space="preserve">
+    <value>Imager Failure</value>
+  </data>
+  <data name="ER1812_POOR_READ_LEFT" xml:space="preserve">
+    <value>Poor Reads Left</value>
+  </data>
+  <data name="ER1813_POOR_READ_RIGHT" xml:space="preserve">
+    <value>Poor Reads Right</value>
+  </data>
+  <data name="ER1814_POOR_READ_BACK" xml:space="preserve">
+    <value>Poor Reads Back</value>
+  </data>
+  <data name="ER1815_POOR_READ_TOP" xml:space="preserve">
+    <value>Poor Reads Top</value>
+  </data>
+  <data name="ER1816_POOR_SIGNAL_FAR" xml:space="preserve">
+    <value>Poor Signal Far</value>
+  </data>
+  <data name="ER1817_POOR_SIGNAL_NEAR" xml:space="preserve">
+    <value>Poor Signal Near</value>
+  </data>
+  <data name="ER1818_SIGNAL_ERROR" xml:space="preserve">
+    <value>Barcode Signal Error</value>
+  </data>
+  <data name="ER1819_SCAN_DISABLE" xml:space="preserve">
+    <value>Scan Disable Error</value>
+  </data>
+  <data name="ER1820_SCAN_ENABLE" xml:space="preserve">
+    <value>Scan Enable  Error</value>
+  </data>
+  <data name="ER1821_SCANRATE_LOW" xml:space="preserve">
+    <value>Scan Rate Low</value>
+  </data>
+  <data name="ER1822_SCANRATE_HIGH" xml:space="preserve">
+    <value>Scan Rate High</value>
+  </data>
+  <data name="ER1823_NO_PRE_SCANRATE" xml:space="preserve">
+    <value>No Pre Data</value>
+  </data>
+  <data name="ER1824_BADGEREAD" xml:space="preserve">
+    <value>Badge Read Fail</value>
+    <comment>Badge Read Fail</comment>
+  </data>
+  <data name="ER2048_" xml:space="preserve">
+    <value>/***************      COMM FAILURES      ***************/</value>
+  </data>
+  <data name="ER2048_NO_ENTER_TM" xml:space="preserve">
+    <value>No Enter Test Mode</value>
+  </data>
+  <data name="ER2049_NO_EXIT_TM" xml:space="preserve">
+    <value>No Exit Test Mode</value>
+  </data>
+  <data name="ER2050_NO_COMM" xml:space="preserve">
+    <value>No Communication</value>
+  </data>
+  <data name="ER2051_COMM_LOCK_UP" xml:space="preserve">
+    <value>Communication Lock up</value>
+  </data>
+  <data name="ER2052_OPEN_DAC_CH" xml:space="preserve">
+    <value>Failed Open Dac Channel</value>
+  </data>
+  <data name="ER2053_SET_DAC" xml:space="preserve">
+    <value>Failed To Set Dac Value</value>
+  </data>
+  <data name="ER2054_SAVE_DAC" xml:space="preserve">
+    <value>Failed To Save Dac</value>
+  </data>
+  <data name="ER2055_CLOSE_DAC_CH" xml:space="preserve">
+    <value>Failed To Close Dac Channel</value>
+  </data>
+  <data name="ER2056_DAC_BEEP" xml:space="preserve">
+    <value>Failed Dac Beep</value>
+  </data>
+  <data name="ER2057_DAC_RECALL" xml:space="preserve">
+    <value>Failed Dac Recall</value>
+  </data>
+  <data name="ER2058_INC_DAC" xml:space="preserve">
+    <value>Failed Increment Dac</value>
+  </data>
+  <data name="ER2059_DEC_DAC" xml:space="preserve">
+    <value>Failed Decrement Dac</value>
+  </data>
+  <data name="ER2060_GET_DAC" xml:space="preserve">
+    <value>Failed To Get Dac Value</value>
+  </data>
+  <data name="ER2061_DAC_TEST_CH" xml:space="preserve">
+    <value>Failed Dac Test Channel</value>
+  </data>
+  <data name="ER2062_RAM" xml:space="preserve">
+    <value>Ram Failure</value>
+  </data>
+  <data name="ER2063_NO_BOARD_FLASH" xml:space="preserve">
+    <value>No Board Flash</value>
+  </data>
+  <data name="ER2064_SERIAL_FAIL" xml:space="preserve">
+    <value>Serial Fail</value>
+  </data>
+  <data name="ER2065_SERIAL_MISMATCH" xml:space="preserve">
+    <value>Serial Mismatch</value>
+  </data>
+  <data name="ER2066_VERNON" xml:space="preserve">
+    <value>Failed Vernon</value>
+  </data>
+  <data name="ER2067_WRONG_FIRMWARE" xml:space="preserve">
+    <value>Wrong Firmware</value>
+  </data>
+  <data name="ER2068_NOVRAM_RESET" xml:space="preserve">
+    <value>Failed Novram Reset</value>
+  </data>
+  <data name="ER2069_COMM_TO" xml:space="preserve">
+    <value>Failed Communication Timeout</value>
+  </data>
+  <data name="ER2070_MENU_COMMAND" xml:space="preserve">
+    <value>Menu Command Failure</value>
+  </data>
+  <data name="ER2071_SET_TEST_STATUS" xml:space="preserve">
+    <value>Failed to Set Test Status</value>
+  </data>
+  <data name="ER2072_ENABLE_FACT_MODE" xml:space="preserve">
+    <value>Failed to Enable Factory Mode</value>
+  </data>
+  <data name="ER2073_ENABLE_LICENSE" xml:space="preserve">
+    <value>Failed to Enable License</value>
+  </data>
+  <data name="ER2074_DOWNLOAD" xml:space="preserve">
+    <value>Download Failure</value>
+  </data>
+  <data name="ER2075_CHECKSUM" xml:space="preserve">
+    <value>Checksum Failure</value>
+  </data>
+  <data name="ER2076_GET_PN" xml:space="preserve">
+    <value>Failed to Get Part Number</value>
+    <comment>Failed to Get Part Number</comment>
+  </data>
+  <data name="ER2077_NETWORK" xml:space="preserve">
+    <value>Network Failure</value>
+    <comment>Network Failure</comment>
+  </data>
+  <data name="ER2078_GET_SN" xml:space="preserve">
+    <value>Fail to Get Serial Number</value>
+    <comment>Fail to Get Serial Number</comment>
+  </data>
+  <data name="ER2079_GET_FN" xml:space="preserve">
+    <value>Fail to Get Firmware Number</value>
+    <comment>Fail to Get Firmware Number</comment>
+  </data>
+  <data name="ER2080_MODEL_MISMATCH" xml:space="preserve">
+    <value>Model Mismatch</value>
+    <comment>Model Mismatch</comment>
+  </data>
+  <data name="ER2081_PN_MISMATCH" xml:space="preserve">
+    <value>Part Number Mismatch</value>
+    <comment>Part Number Mismatch</comment>
+  </data>
+  <data name="ER2082_KEYPAD" xml:space="preserve">
+    <value>Keypad Fail</value>
+    <comment>Keypad Fail</comment>
+  </data>
+  <data name="ER2304_" xml:space="preserve">
+    <value>/***************   INTERFACE  FAILURES   ***************/</value>
+  </data>
+  <data name="ER2304_RS232" xml:space="preserve">
+    <value>RS232 Fail</value>
+  </data>
+  <data name="ER2305_LTPN" xml:space="preserve">
+    <value>LTPN Fail</value>
+  </data>
+  <data name="ER2306_OCIA" xml:space="preserve">
+    <value>OCIA Fail</value>
+  </data>
+  <data name="ER2307_IBM" xml:space="preserve">
+    <value>IBM Fail</value>
+  </data>
+  <data name="ER2308_USB" xml:space="preserve">
+    <value>USB Fail</value>
+  </data>
+  <data name="ER2309_LASER_DATA" xml:space="preserve">
+    <value>Laser Emulation Fail</value>
+  </data>
+  <data name="ER2310_KBW" xml:space="preserve">
+    <value>KBW Fail</value>
+  </data>
+  <data name="ER2311_RTS_CTS" xml:space="preserve">
+    <value>RTS/CTS Fail</value>
+  </data>
+  <data name="ER2312_DTR" xml:space="preserve">
+    <value>DTR Fail</value>
+  </data>
+  <data name="ER2313_DSR" xml:space="preserve">
+    <value>DSR Fail</value>
+  </data>
+  <data name="ER2314_RS232_LEVEL" xml:space="preserve">
+    <value>RS232 Level Fail</value>
+  </data>
+  <data name="ER2315_USB_OPEN" xml:space="preserve">
+    <value>USB Open Fail</value>
+  </data>
+  <data name="ER2316_IBM_OPEN" xml:space="preserve">
+    <value>IBM Open Fail</value>
+  </data>
+  <data name="ER2317_KBW_LOOP" xml:space="preserve">
+    <value>KBW Loop Fail</value>
+  </data>
+  <data name="ER2318_DATA_LINE" xml:space="preserve">
+    <value>Data Line Failure</value>
+  </data>
+  <data name="ER2319_CLOCK_LINE" xml:space="preserve">
+    <value>Clock Line Failure</value>
+  </data>
+  <data name="ER2320_DISABLE" xml:space="preserve">
+    <value>Failed Disable</value>
+  </data>
+  <data name="ER2321_ENABLE" xml:space="preserve">
+    <value>Failed Enable</value>
+  </data>
+  <data name="ER2322_RESET" xml:space="preserve">
+    <value>Failed Reset</value>
+  </data>
+  <data name="ER2323_AUX" xml:space="preserve">
+    <value>Aux Fail</value>
+  </data>
+  <data name="ER2324_AUX_MISREAD" xml:space="preserve">
+    <value>Aux Misread</value>
+  </data>
+  <data name="ER2325_AUX_NO_COMM" xml:space="preserve">
+    <value>Aux No Communication</value>
+  </data>
+  <data name="ER2326_RS422" xml:space="preserve">
+    <value>RS422 Fail</value>
+  </data>
+  <data name="ER2327_WRONG_INT_BD" xml:space="preserve">
+    <value>Wrong Interface Board</value>
+  </data>
+  <data name="ER2328_WAND" xml:space="preserve">
+    <value>Wand Failure</value>
+  </data>
+  <data name="ER2329_IBM_USB" xml:space="preserve">
+    <value>IBM and USB Failure</value>
+  </data>
+  <data name="ER2330_BD_TYPE" xml:space="preserve">
+    <value>Board Type Failure</value>
+  </data>
+  <data name="ER2331_TTL_INVERT" xml:space="preserve">
+    <value>TTL Invert Fail</value>
+    <comment>TTL Invert Fail</comment>
+  </data>
+  <data name="ER2560_" xml:space="preserve">
+    <value>/***************      IR  FAILURES      ***************/</value>
+  </data>
+  <data name="ER2560_IR" xml:space="preserve">
+    <value>IR Failure</value>
+  </data>
+  <data name="ER2561_IR_ADJUSTMENT" xml:space="preserve">
+    <value>IR Adjustment</value>
+  </data>
+  <data name="ER2562_IR_SENSITIVE" xml:space="preserve">
+    <value>IR Too Sensitive</value>
+  </data>
+  <data name="ER2563_NO_IR" xml:space="preserve">
+    <value>No IR</value>
+  </data>
+  <data name="ER2564_OUT_LONG" xml:space="preserve">
+    <value>Out Long</value>
+  </data>
+  <data name="ER2565_OUT_SHORT" xml:space="preserve">
+    <value>Out Short</value>
+  </data>
+  <data name="ER2566_IN_LONG" xml:space="preserve">
+    <value>In Long</value>
+  </data>
+  <data name="ER2567_IN_SHORT" xml:space="preserve">
+    <value>In Short</value>
+  </data>
+  <data name="ER2568_NO_DETECT" xml:space="preserve">
+    <value>No Object Detect</value>
+  </data>
+  <data name="ER2569_FAR" xml:space="preserve">
+    <value>IR Far</value>
+  </data>
+  <data name="ER2570_NEAR" xml:space="preserve">
+    <value>IR Near</value>
+  </data>
+  <data name="ER2571_IR_LOCK_UP" xml:space="preserve">
+    <value>IR Lock-up</value>
+  </data>
+  <data name="ER2572_IR_CANT_SET" xml:space="preserve">
+    <value>Can't Set IR</value>
+  </data>
+  <data name="ER2592_IR_DAC" xml:space="preserve">
+    <value>IR DAC Failure</value>
+  </data>
+  <data name="ER2593_OPEN_IR_DAC_CH" xml:space="preserve">
+    <value>Failed Open IR Dac Channel</value>
+  </data>
+  <data name="ER2594_SET_IR_DAC" xml:space="preserve">
+    <value>Failed To Set IR Dac Value</value>
+  </data>
+  <data name="ER2595_SAVE_IR_DAC" xml:space="preserve">
+    <value>Failed To Save IR Dac</value>
+  </data>
+  <data name="ER2596_CLOSE_IR_DAC_CH" xml:space="preserve">
+    <value>Failed To Close IR Dac Channel</value>
+  </data>
+  <data name="ER2597_IR_OBJECT_DETECT" xml:space="preserve">
+    <value>Failed IR Dac Object Detect</value>
+  </data>
+  <data name="ER2598_INC_IR_DAC" xml:space="preserve">
+    <value>Failed Increment IR Dac</value>
+  </data>
+  <data name="ER2599_DEC_IR_DAC" xml:space="preserve">
+    <value>Failed Decrement IR Dac</value>
+  </data>
+  <data name="ER2600_GET_IR_DAC" xml:space="preserve">
+    <value>Failed To Get IR Dac Value</value>
+  </data>
+  <data name="ER2601_AREA_DELTA" xml:space="preserve">
+    <value>Failed Area Delta</value>
+  </data>
+  <data name="ER2624_PADDLE1" xml:space="preserve">
+    <value>Failed Paddle 1</value>
+  </data>
+  <data name="ER2625_PADDLE2" xml:space="preserve">
+    <value>Failed Paddle 2</value>
+  </data>
+  <data name="ER2626_PADDLE3" xml:space="preserve">
+    <value>Failed Paddle 3</value>
+  </data>
+  <data name="ER2627_PADDLE4" xml:space="preserve">
+    <value>Failed Paddle 4</value>
+  </data>
+  <data name="ER2816_" xml:space="preserve">
+    <value>/***************      VLD FAILURES      ***************/</value>
+  </data>
+  <data name="ER2816_NO_VLD" xml:space="preserve">
+    <value>No VLD</value>
+  </data>
+  <data name="ER2817_VLD_NOT_ON" xml:space="preserve">
+    <value>VLD Not On</value>
+  </data>
+  <data name="ER2818_VLD_NOT_OFF" xml:space="preserve">
+    <value>VLD Not Off</value>
+  </data>
+  <data name="ER2819_LOW_VLD_POWER" xml:space="preserve">
+    <value>Low VLD Power</value>
+  </data>
+  <data name="ER2820_HI_VLD_POWER" xml:space="preserve">
+    <value>High VLD Power</value>
+  </data>
+  <data name="ER2821_LOW_ON_VOLT" xml:space="preserve">
+    <value>Low VLD On Volts</value>
+  </data>
+  <data name="ER2822_HI_ON_VOLT" xml:space="preserve">
+    <value>High VLD On Volts</value>
+  </data>
+  <data name="ER2823_LOW_OFF_VOLT" xml:space="preserve">
+    <value>Low VLD Off Volts</value>
+  </data>
+  <data name="ER2824_HI_OFF_VOLT" xml:space="preserve">
+    <value>High VLD Off Volts</value>
+  </data>
+  <data name="ER2825_VLD_STATUS" xml:space="preserve">
+    <value>VLD Status Error</value>
+  </data>
+  <data name="ER2826_NO_BEAM" xml:space="preserve">
+    <value>No Beam</value>
+  </data>
+  <data name="ER2827_LOST_BEAM" xml:space="preserve">
+    <value>Lost Beam</value>
+  </data>
+  <data name="ER2828_BLOWN_VLD" xml:space="preserve">
+    <value>Blown VLD</value>
+  </data>
+  <data name="ER2829_VLD_DRIVE" xml:space="preserve">
+    <value>Failed VLD Drive Circuit</value>
+  </data>
+  <data name="ER2830_VLD_FOCUS" xml:space="preserve">
+    <value>VLD Out of Focus</value>
+  </data>
+  <data name="ER2831_DELTA_POWER" xml:space="preserve">
+    <value>Delta Power Failure</value>
+  </data>
+  <data name="ER2832_NO_HOR1_VLD" xml:space="preserve">
+    <value>No Horizontal 1 VLD</value>
+  </data>
+  <data name="ER2833_HOR1_VLD_NOT_ON" xml:space="preserve">
+    <value>Horizontal 1 VLD Not On</value>
+  </data>
+  <data name="ER2834_HOR1_VLD_NOT_OFF" xml:space="preserve">
+    <value>Horizontal 1 VLD Not Off</value>
+  </data>
+  <data name="ER2835_LOW_HOR1_VLD_POWER" xml:space="preserve">
+    <value>Horizontal 1 Low VLD Power</value>
+  </data>
+  <data name="ER2836_HI_HOR1_VLD_POWER" xml:space="preserve">
+    <value>Horizontal 1 High VLD Power</value>
+  </data>
+  <data name="ER2837_LOW_HOR1_VLD_ON_VOLT" xml:space="preserve">
+    <value>Low Horizontal 1 VLD On Volts</value>
+  </data>
+  <data name="ER2838_HI_HOR1_VLD_ON_VOLT" xml:space="preserve">
+    <value>High Horizontal 1 VLD On Volts</value>
+  </data>
+  <data name="ER2839_LOW_HOR1_VLD_OFF_VOLT" xml:space="preserve">
+    <value>Low Horizontal 1 VLD Off Volts</value>
+  </data>
+  <data name="ER2840_HI_HOR1_VLD_OFF_VOLT" xml:space="preserve">
+    <value>High Horizontal 1 VLD Off Volts</value>
+  </data>
+  <data name="ER2841_HOR1_VLD_STATUS" xml:space="preserve">
+    <value>Horizontal 1 VLD Status Error</value>
+  </data>
+  <data name="ER2842_NO_HOR1_BEAM" xml:space="preserve">
+    <value>No Horizontal 1 Beam</value>
+  </data>
+  <data name="ER2843_LOST_HOR1_BEAM" xml:space="preserve">
+    <value>Lost Horizontal 1 Beam</value>
+  </data>
+  <data name="ER2844_BLOWN_HOR1_VOLD" xml:space="preserve">
+    <value>Blown Horizontal 1 VLD</value>
+  </data>
+  <data name="ER2845_HOR1_VLD_DRIVE" xml:space="preserve">
+    <value>Failed Horizontal 1 VLD Drive</value>
+  </data>
+  <data name="ER2848_NO_HOR2_VLD" xml:space="preserve">
+    <value>No Horizontal 2 VLD</value>
+  </data>
+  <data name="ER2849_HOR2_VLD_NOT_ON" xml:space="preserve">
+    <value>Horizontal 2 VLD Not On</value>
+  </data>
+  <data name="ER2850_HOR2_VLD_NOT_OFF" xml:space="preserve">
+    <value>Horizontal 2 VLD Not Off</value>
+  </data>
+  <data name="ER2851_LOW_HOR2_VLD_POWER" xml:space="preserve">
+    <value>Horizontal 2 Low VLD Power</value>
+  </data>
+  <data name="ER2852_HI_HOR2_VLD_POWER" xml:space="preserve">
+    <value>Horizontal 2 High VLD Power</value>
+  </data>
+  <data name="ER2853_LOW_HOR2_VLD_ON_VOLT" xml:space="preserve">
+    <value>Low Horizontal 2 VLD On Volts</value>
+  </data>
+  <data name="ER2854_HI_HOR2_VLD_ON_VOLT" xml:space="preserve">
+    <value>High Horizontal 2 VLD On Volts</value>
+  </data>
+  <data name="ER2855_LOW_HOR2_VLD_OFF_VOLT" xml:space="preserve">
+    <value>Low Horizontal 2 VLD Off Volts</value>
+  </data>
+  <data name="ER2856_HI_HOR2_VLD_OFF_VOLT" xml:space="preserve">
+    <value>High Horizontal 2 VLD Off Volts</value>
+  </data>
+  <data name="ER2857_HOR2_VLD_STATUS" xml:space="preserve">
+    <value>Horizontal 2 VLD Status Error</value>
+  </data>
+  <data name="ER2858_NO_HOR2_BEAM" xml:space="preserve">
+    <value>No Horizontal 2 Beam</value>
+  </data>
+  <data name="ER2859_LOW_HOR2_BEAM" xml:space="preserve">
+    <value>Lost Horizontal 2 Beam</value>
+  </data>
+  <data name="ER2860_BLOWN_HOR2_VLD" xml:space="preserve">
+    <value>Blown Horizontal 2 VLD</value>
+  </data>
+  <data name="ER2861_HOR2_VLD_DRIVE" xml:space="preserve">
+    <value>Failed Horizontal 2 VLD Drive</value>
+  </data>
+  <data name="ER2864_NO_VERT_VLD" xml:space="preserve">
+    <value>No Vertical VLD</value>
+  </data>
+  <data name="ER2865_VERT_VLD_NOT_ON" xml:space="preserve">
+    <value>Vertical VLD Not On</value>
+  </data>
+  <data name="ER2866_VERT_VLD_NOT_OFF" xml:space="preserve">
+    <value>Vertical VLD Not Off</value>
+  </data>
+  <data name="ER2867_LOW_VERT_VLD_POWER" xml:space="preserve">
+    <value>Low Vertical VLD Power</value>
+  </data>
+  <data name="ER2868_HI_VERT_VLD_POWER" xml:space="preserve">
+    <value>High Vertical VLD Power</value>
+  </data>
+  <data name="ER2869_LOW_VERT_VLD_ON_VOLT" xml:space="preserve">
+    <value>Low Vertical VLD On Volts</value>
+  </data>
+  <data name="ER2870_HI_VERT_VLD_ON_VOLT" xml:space="preserve">
+    <value>High Vertical VLD On Volts</value>
+  </data>
+  <data name="ER2871_LOW_VERT_VLD_OFF_VOLT" xml:space="preserve">
+    <value>Low Vertical VLD Off Volts</value>
+  </data>
+  <data name="ER2872_HI_VERT_VLD_OFF_VOLT" xml:space="preserve">
+    <value>High Vertical VLD Off Volts</value>
+  </data>
+  <data name="ER2873_VERT_VLD_STATUS" xml:space="preserve">
+    <value>Vertical VLD Status Error</value>
+  </data>
+  <data name="ER2874_NO_VERT_BEAM" xml:space="preserve">
+    <value>No Vertical Beam</value>
+  </data>
+  <data name="ER2875_LOST_VERT_BEAM" xml:space="preserve">
+    <value>Lost Vertical Beam</value>
+  </data>
+  <data name="ER2876_BLOWN_VERT_VLD" xml:space="preserve">
+    <value>Blown Vertical VLD</value>
+  </data>
+  <data name="ER2877_VERT_VLD_DRIVE" xml:space="preserve">
+    <value>Failed Vertical VLD Drive</value>
+  </data>
+  <data name="ER2880_NO_LEFT_VLD" xml:space="preserve">
+    <value>No Left VLD</value>
+  </data>
+  <data name="ER2881_LEFT_VLD_NOT_ON" xml:space="preserve">
+    <value>Left VLD Not On</value>
+  </data>
+  <data name="ER2882_LEFT_VLD_NOT_OFF" xml:space="preserve">
+    <value>Left VLD Not Off</value>
+  </data>
+  <data name="ER2883_LOW_LEFT_VLD_POWER" xml:space="preserve">
+    <value>Low Left VLD Power</value>
+  </data>
+  <data name="ER2884_HI_LEFT_VLD_POWER" xml:space="preserve">
+    <value>High Left VLD Power</value>
+  </data>
+  <data name="ER2885_LOW_LEFT_VLD_ON_VOLT" xml:space="preserve">
+    <value>Low Left VLD On Volts</value>
+  </data>
+  <data name="ER2886_HI_LEFT_VLD_ON_VOLT" xml:space="preserve">
+    <value>High Left VLD On Volts</value>
+  </data>
+  <data name="ER2887_LOW_LEFT_VLD_OFF_VOLT" xml:space="preserve">
+    <value>Low Left VLD Off Volts</value>
+  </data>
+  <data name="ER2888_HI_LEFT_VLD_OFF_VOLT" xml:space="preserve">
+    <value>High Left VLD Off Volts</value>
+  </data>
+  <data name="ER2889_LEFT_VLD_STATUS" xml:space="preserve">
+    <value>Left VLD Status Error</value>
+  </data>
+  <data name="ER2890_NO_LEFT_BEAM" xml:space="preserve">
+    <value>No Left Beam</value>
+  </data>
+  <data name="ER2891_LOST_LEFT_BEAM" xml:space="preserve">
+    <value>Lost Left Beam</value>
+  </data>
+  <data name="ER2892_BLOWN_LEFT_VLD" xml:space="preserve">
+    <value>Blown Left VLD</value>
+  </data>
+  <data name="ER2893_LEFT_VLD_DRIVE" xml:space="preserve">
+    <value>Failed Left VLD Drive</value>
+  </data>
+  <data name="ER2896_NO_RIGHT_VLD" xml:space="preserve">
+    <value>No Right VLD</value>
+  </data>
+  <data name="ER2897_RIGHT_VLD_NOT_ON" xml:space="preserve">
+    <value>Right VLD Not On</value>
+  </data>
+  <data name="ER2898_RIGHT_VLD_NOT_OFF" xml:space="preserve">
+    <value>Right VLD Not Off</value>
+  </data>
+  <data name="ER2899_LOW_RIGHT_VLD_POWER" xml:space="preserve">
+    <value>Low Right VLD Power</value>
+  </data>
+  <data name="ER2900_HI_RIGHT_VLD_POWER" xml:space="preserve">
+    <value>High Right VLD Power</value>
+  </data>
+  <data name="ER2901_LOW_RIGHT_VLD_ON_VOLT" xml:space="preserve">
+    <value>Low Right VLD On Volts</value>
+  </data>
+  <data name="ER2902_HI_RIGHT_VLD_ON_VOLT" xml:space="preserve">
+    <value>High Right VLD On Volts</value>
+  </data>
+  <data name="ER2903_LOW_RIGHT_VLD_OFF_VOLT" xml:space="preserve">
+    <value>Low Right VLD Off Volts</value>
+  </data>
+  <data name="ER2904_HI_RIGHT_VLD_OFF_VOLT" xml:space="preserve">
+    <value>High Right VLD Off Volts</value>
+  </data>
+  <data name="ER2905_RIGHT_VLD_STATUS" xml:space="preserve">
+    <value>Error Right VLD Status</value>
+  </data>
+  <data name="ER2906_NO_RIGHT_BEAM" xml:space="preserve">
+    <value>No Right Beam</value>
+  </data>
+  <data name="ER2907_LOST_RIGHT_BEAM" xml:space="preserve">
+    <value>Lost Right Beam</value>
+  </data>
+  <data name="ER2908_BLOWN_RIGHT_VLD" xml:space="preserve">
+    <value>Blown Right VLD</value>
+  </data>
+  <data name="ER2909_RIGHT_VLD_DRIVE" xml:space="preserve">
+    <value>Failed Right VLD Drive</value>
+  </data>
+  <data name="ER2912_VLD_POWER_SET" xml:space="preserve">
+    <value>Failed to Set VLD Power</value>
+  </data>
+  <data name="ER2913_TARGET" xml:space="preserve">
+    <value>Can't Target VLD</value>
+  </data>
+  <data name="ER3072_" xml:space="preserve">
+    <value>/***************    FLIPPER FAILURES    ***************/</value>
+  </data>
+  <data name="ER3072_LOW_FLIPPER_FREQ" xml:space="preserve">
+    <value>Low Flipper Freq</value>
+  </data>
+  <data name="ER3073_HI_FLIPPER_FREQ" xml:space="preserve">
+    <value>High Flipper Freq</value>
+  </data>
+  <data name="ER3074_FLIPPER_NOT_ON" xml:space="preserve">
+    <value>Flipper Not On</value>
+  </data>
+  <data name="ER3075_FLIPPER_NOT_OFF" xml:space="preserve">
+    <value>Flipper Not Off</value>
+  </data>
+  <data name="ER3076_FLIPPER_LOOSE" xml:space="preserve">
+    <value>Flipper Loose</value>
+  </data>
+  <data name="ER3077_FLIPPER_HITTING" xml:space="preserve">
+    <value>Flipper Hitting</value>
+  </data>
+  <data name="ER3078_FLIPPER_BENT" xml:space="preserve">
+    <value>Flipper Bent</value>
+  </data>
+  <data name="ER3079_NO_FLIPPER" xml:space="preserve">
+    <value>No Flipper</value>
+  </data>
+  <data name="ER3080_FLIPPER_SENSITIVE" xml:space="preserve">
+    <value>Flipper Sensitive</value>
+  </data>
+  <data name="ER3081_FLIPPER_RIGHT" xml:space="preserve">
+    <value>Flipper Right</value>
+  </data>
+  <data name="ER3082_FLIPPER_LEFT" xml:space="preserve">
+    <value>Flipper Left</value>
+  </data>
+  <data name="ER3083_FLIPPER_UNSTABLE" xml:space="preserve">
+    <value>Flipper Unstable</value>
+  </data>
+  <data name="ER3084_FLIPPER_STICK" xml:space="preserve">
+    <value>Flipper Stick/Stop</value>
+  </data>
+  <data name="ER3085_FLIPPER_NOISE" xml:space="preserve">
+    <value>Flipper Noise</value>
+  </data>
+  <data name="ER3086_LOW_SPOT_SPEED" xml:space="preserve">
+    <value>Spot Speed Low</value>
+  </data>
+  <data name="ER3087_HI_SPOT_SPEED" xml:space="preserve">
+    <value>Spot Speed High</value>
+  </data>
+  <data name="ER3088_SHORT_SWEEP" xml:space="preserve">
+    <value>Short Sweep</value>
+  </data>
+  <data name="ER3089_LEFT_UNEVEN" xml:space="preserve">
+    <value>Left Uneven</value>
+  </data>
+  <data name="ER3090_RIGHT_UNEVEN" xml:space="preserve">
+    <value>Right Uneven</value>
+  </data>
+  <data name="ER3091_SLANT" xml:space="preserve">
+    <value>Slant</value>
+  </data>
+  <data name="ER3092_EXIT_ANGLE" xml:space="preserve">
+    <value>Exit Angle</value>
+  </data>
+  <data name="ER3093_ERRATIC_BEAM" xml:space="preserve">
+    <value>Erratic Beam</value>
+  </data>
+  <data name="ER3094_BROKEN_BEAM" xml:space="preserve">
+    <value>Broken Beam</value>
+  </data>
+  <data name="ER3095_DOUBLE_BEAM" xml:space="preserve">
+    <value>Double Beam</value>
+  </data>
+  <data name="ER3096_WAVY_BEAM" xml:space="preserve">
+    <value>Wavy Beam</value>
+  </data>
+  <data name="ER3097_LOW_BEAM" xml:space="preserve">
+    <value>Low Beam</value>
+  </data>
+  <data name="ER3098_HIGH_BEAM" xml:space="preserve">
+    <value>High Beam</value>
+  </data>
+  <data name="ER3099_LOW_DELTA" xml:space="preserve">
+    <value>Low Delta</value>
+  </data>
+  <data name="ER3100_HI_DELTA" xml:space="preserve">
+    <value>High Delta</value>
+  </data>
+  <data name="ER3101_LOW_FIRST_DER" xml:space="preserve">
+    <value>Low 1st Derivative</value>
+  </data>
+  <data name="ER3102_HIGH_FIRST_DER" xml:space="preserve">
+    <value>High 1st Derivative</value>
+  </data>
+  <data name="ER3103_NO_FIRST_DER" xml:space="preserve">
+    <value>No 1st Derivative</value>
+  </data>
+  <data name="ER3104_FADED_BEAM" xml:space="preserve">
+    <value>Faded Beam</value>
+  </data>
+  <data name="ER3105_LOW_BEAM_DIAM" xml:space="preserve">
+    <value>Low Beam Diameter</value>
+  </data>
+  <data name="ER3106_HI_BEAM_DIAM" xml:space="preserve">
+    <value>High Beam Diameter</value>
+  </data>
+  <data name="ER3107_LOW_LEFT_SPOT_SPEED" xml:space="preserve">
+    <value>Low Left Spot Speed</value>
+  </data>
+  <data name="ER3108_HIGH_LEFT_SPOT_SPEED" xml:space="preserve">
+    <value>High Left Spot Speed</value>
+  </data>
+  <data name="ER3109_LOW_RIGHT_SPOT_SPEED" xml:space="preserve">
+    <value>Low Right Spot Speed</value>
+  </data>
+  <data name="ER3110_HIGH_RIGHT_SPOT_SPEED" xml:space="preserve">
+    <value>High Right Spot Speed</value>
+  </data>
+  <data name="ER3111_SS_CANT_SET" xml:space="preserve">
+    <value>Cant Set Spot Speed</value>
+  </data>
+  <data name="ER3112_RESFREQ_TEST" xml:space="preserve">
+    <value>Resonance Frequency Test Failure</value>
+  </data>
+  <data name="ER3113_EXCESS_TILT" xml:space="preserve">
+    <value>Excess Y Axis Mirror Tilt</value>
+  </data>
+  <data name="ER3328_" xml:space="preserve">
+    <value>/***************     MOTOR FAILURES     ***************/</value>
+  </data>
+  <data name="ER3328_LOW_RPM" xml:space="preserve">
+    <value>Low Motor RPM</value>
+  </data>
+  <data name="ER3329_HI_RPM" xml:space="preserve">
+    <value>High Motor RPM</value>
+  </data>
+  <data name="ER3330_NOISY_MOTOR" xml:space="preserve">
+    <value>Noisy Motor</value>
+  </data>
+  <data name="ER3331_MOTOR_VIBR" xml:space="preserve">
+    <value>Motor Vibration</value>
+  </data>
+  <data name="ER3332_MOTOR_STICK" xml:space="preserve">
+    <value>Motor Stick/Stop</value>
+  </data>
+  <data name="ER3333_BROKEN_POLYGON" xml:space="preserve">
+    <value>Broken Polygon</value>
+  </data>
+  <data name="ER3334_BAD_RASTER" xml:space="preserve">
+    <value>Bad Raster</value>
+  </data>
+  <data name="ER3335_CANT_BALANCE" xml:space="preserve">
+    <value>Can't Balance Motor</value>
+  </data>
+  <data name="ER3336_MOTOR_DRIVE" xml:space="preserve">
+    <value>Motor Drive Circuit</value>
+  </data>
+  <data name="ER3337_MOTOR_NOT_ON" xml:space="preserve">
+    <value>Motor Not On</value>
+  </data>
+  <data name="ER3344_LOW_HOR1_RPM" xml:space="preserve">
+    <value>Low Horizontal 1 Motor RPM</value>
+  </data>
+  <data name="ER3345_HI_HOR1_RPM" xml:space="preserve">
+    <value>High Horizontal 1 Motor RPM</value>
+  </data>
+  <data name="ER3346_NOISY_HOR1_MOTOR" xml:space="preserve">
+    <value>Noisy Horizontal 1 Motor</value>
+  </data>
+  <data name="ER3347_HOR1_MOTOR_VIBR" xml:space="preserve">
+    <value>Horizontal 1 Motor Vibration</value>
+  </data>
+  <data name="ER3348_HOR1_MOTOR_STICK" xml:space="preserve">
+    <value>Horizontal 1 Motor Stick/Stop</value>
+  </data>
+  <data name="ER3349_BROKEN_HOR1_POLYGON" xml:space="preserve">
+    <value>Broken Horizontal 1 Polygon</value>
+  </data>
+  <data name="ER3350_BAD_HOR1_RASTER" xml:space="preserve">
+    <value>Bad Horizontal 1 Raster</value>
+  </data>
+  <data name="ER3351_HOR1_MOTOR_DRIVE" xml:space="preserve">
+    <value>Horizontal 1 Motor Drive</value>
+  </data>
+  <data name="ER3352_HOR1_MOTOR_NOT_ON" xml:space="preserve">
+    <value>Horizontal 1 Motor Not On</value>
+  </data>
+  <data name="ER3360_LOW_HOR2_RPM" xml:space="preserve">
+    <value>Low Horizontal 2 Motor RPM</value>
+  </data>
+  <data name="ER3361_HI_HOR2_RPM" xml:space="preserve">
+    <value>High Horizontal 2 Motor RPM</value>
+  </data>
+  <data name="ER3362_NOISY_HOR2_MOTOR" xml:space="preserve">
+    <value>Noisy Horizontal 2 Motor</value>
+  </data>
+  <data name="ER3363_HOR2_MOTOR_VIBR" xml:space="preserve">
+    <value>Horizontal 2 Motor Vibration</value>
+  </data>
+  <data name="ER3364_HOR2_MOTOR_STICK" xml:space="preserve">
+    <value>Horizontal 2 Motor Stick/Stop</value>
+  </data>
+  <data name="ER3365_BROKEN_HOR2_POLYGON" xml:space="preserve">
+    <value>Broken Horizontal 2 Polygon</value>
+  </data>
+  <data name="ER3366_BAD_HOR2_RASTER" xml:space="preserve">
+    <value>Bad Horizontal 2 Raster</value>
+  </data>
+  <data name="ER3367_HOR2_MOTOR_DRIVE" xml:space="preserve">
+    <value>Horizontal 2 Motor Drive</value>
+  </data>
+  <data name="ER3368_HOR2_MOTOR_NOT_ON" xml:space="preserve">
+    <value>Horizontal 2 Motor Not On</value>
+  </data>
+  <data name="ER3376_LOW_VERT_RPM" xml:space="preserve">
+    <value>Low Vertical Motor RPM</value>
+  </data>
+  <data name="ER3377_HI_VERT_RPM" xml:space="preserve">
+    <value>High Vertical Motor RPM</value>
+  </data>
+  <data name="ER3378_NOISY_VERT_MOTOR" xml:space="preserve">
+    <value>Noisy Vertical Motor</value>
+  </data>
+  <data name="ER3379_VERT_MOTOR_VIBR" xml:space="preserve">
+    <value>Vertical Motor Vibration</value>
+  </data>
+  <data name="ER3380_VERT_MOTOR_STICK" xml:space="preserve">
+    <value>Vertical Motor Stick/Stop</value>
+  </data>
+  <data name="ER3381_BROKEN_VERT_POLYGON" xml:space="preserve">
+    <value>Broken Vertical Polygon</value>
+  </data>
+  <data name="ER3382_BAD_VERT_RASTER" xml:space="preserve">
+    <value>Bad Vertical Raster</value>
+  </data>
+  <data name="ER3383_VERT_MOTOR_DRIVE" xml:space="preserve">
+    <value>Vertical Motor Drive</value>
+  </data>
+  <data name="ER3384_VERT_MOTOR_NOT_ON" xml:space="preserve">
+    <value>Vertical Motor Not On</value>
+  </data>
+  <data name="ER3392_LOW_LEFT_RPM" xml:space="preserve">
+    <value>Low Left Motor RPM</value>
+  </data>
+  <data name="ER3393_HI_LEFT_RPM" xml:space="preserve">
+    <value>High Left Motor RPM</value>
+  </data>
+  <data name="ER3394_NOISY_LEFT_MOTOR" xml:space="preserve">
+    <value>Noisy Left Motor</value>
+  </data>
+  <data name="ER3395_LEFT_MOTOR_VIBR" xml:space="preserve">
+    <value>Left Motor Vibration</value>
+  </data>
+  <data name="ER3396_LEFT_MOTOR_STICK" xml:space="preserve">
+    <value>Left Motor Stick/Stop</value>
+  </data>
+  <data name="ER3397_BROKEN_LEFT_POLYGON" xml:space="preserve">
+    <value>Broken Left Polygon</value>
+  </data>
+  <data name="ER3398_BAD_LEFT_RASTER" xml:space="preserve">
+    <value>Bad Left Raster</value>
+  </data>
+  <data name="ER3399_LEFT_MOTOR_DRIVE" xml:space="preserve">
+    <value>Left Motor Drive Circuit</value>
+  </data>
+  <data name="ER3400_LEFT_MOTOR_NOT_ON" xml:space="preserve">
+    <value>Left Motor Not On</value>
+  </data>
+  <data name="ER3408_LOW_RIGHT_RPM" xml:space="preserve">
+    <value>Low Right Motor RPM</value>
+  </data>
+  <data name="ER3409_HI_RIGHT_RPM" xml:space="preserve">
+    <value>High Right Motor RPM</value>
+  </data>
+  <data name="ER3410_NOISY_RIGHT_MOTOR" xml:space="preserve">
+    <value>Noisy Right Motor</value>
+  </data>
+  <data name="ER3411_RIGHT_MOTOR_VIBR" xml:space="preserve">
+    <value>Motor Right Vibration</value>
+  </data>
+  <data name="ER3412_RIGHT_MOTOR_STICK" xml:space="preserve">
+    <value>Right Motor Stick/Stop</value>
+  </data>
+  <data name="ER3413_BROKEN_RIGHT_POLYGON" xml:space="preserve">
+    <value>Broken Right Polygon</value>
+  </data>
+  <data name="ER3414_BAD_RIGHT_RASTER" xml:space="preserve">
+    <value>Bad Right Raster</value>
+  </data>
+  <data name="ER3415_RIGHT_MOTOR_DRIVE" xml:space="preserve">
+    <value>Right Motor Drive Circuit</value>
+  </data>
+  <data name="ER3416_RIGHT_MOTOR_NOT_ON" xml:space="preserve">
+    <value>Right Motor Not On</value>
+  </data>
+  <data name="ER3584_" xml:space="preserve">
+    <value>/*************** ALIGNMENT/PATTERN  FAILURES ***************/</value>
+  </data>
+  <data name="ER3584_ALIGNMENT" xml:space="preserve">
+    <value>Alignment Failure</value>
+  </data>
+  <data name="ER3585_HOR_ALIGNMENT" xml:space="preserve">
+    <value>Horizontal Alignment</value>
+  </data>
+  <data name="ER3586_VERT_ALIGNMENT" xml:space="preserve">
+    <value>Vertical Alignment</value>
+  </data>
+  <data name="ER3587_PATTERN_DISC" xml:space="preserve">
+    <value>Pattern Discrepancy</value>
+  </data>
+  <data name="ER3588_LINE_DISC" xml:space="preserve">
+    <value>Line Discrepancy</value>
+  </data>
+  <data name="ER3589_DEAD_FIELD" xml:space="preserve">
+    <value>Dead Field</value>
+  </data>
+  <data name="ER3590_SINGLE_LINE_MODE" xml:space="preserve">
+    <value>Single Line Mode</value>
+  </data>
+  <data name="ER3591_JOYSTICK" xml:space="preserve">
+    <value>Bad Joystick</value>
+  </data>
+  <data name="ER3592_AIMER_LINE_WIDTH" xml:space="preserve">
+    <value>Aimer Line Width Failure</value>
+  </data>
+  <data name="ER3840_" xml:space="preserve">
+    <value>/***************     SCALE FAILURES     ***************/</value>
+  </data>
+  <data name="ER3840_SCALE" xml:space="preserve">
+    <value>Failed Scale</value>
+  </data>
+  <data name="ER3841_SCALE_DISPLAY" xml:space="preserve">
+    <value>Scale Display Error</value>
+  </data>
+  <data name="ER3842_SCALE_CAL" xml:space="preserve">
+    <value>Scale Calibration Error</value>
+  </data>
+  <data name="ER3843_LOAD_CELL" xml:space="preserve">
+    <value>Load Cell Error</value>
+  </data>
+  <data name="ER3844_SCALE_CONF" xml:space="preserve">
+    <value>Scale Configuration Error</value>
+  </data>
+  <data name="ER4096_" xml:space="preserve">
+    <value>/***************   COSMETIC  FAILURES   ***************/</value>
+  </data>
+  <data name="ER4096_CASE" xml:space="preserve">
+    <value>Error Case</value>
+  </data>
+  <data name="ER4097_WINDOW" xml:space="preserve">
+    <value>Error Window</value>
+  </data>
+  <data name="ER4098_LABEL" xml:space="preserve">
+    <value>Error Label</value>
+  </data>
+  <data name="ER4099_LEDS" xml:space="preserve">
+    <value>Error Leds</value>
+  </data>
+  <data name="ER4100_FLOATERS" xml:space="preserve">
+    <value>Error Floaters</value>
+  </data>
+  <data name="ER4101_BUMPERS" xml:space="preserve">
+    <value>Error Bumpers</value>
+  </data>
+  <data name="ER4102_CABLES" xml:space="preserve">
+    <value>Error Cables</value>
+  </data>
+  <data name="ER4103_MIRRORS" xml:space="preserve">
+    <value>Error Mirrors</value>
+  </data>
+  <data name="ER4104_SHIELDS" xml:space="preserve">
+    <value>Error Shields</value>
+  </data>
+  <data name="ER4105_LENS" xml:space="preserve">
+    <value>Error Lens</value>
+  </data>
+  <data name="ER4106_POOR_PAD" xml:space="preserve">
+    <value>Poor Pad Contact</value>
+  </data>
+  <data name="ER4107_BAD_MATERIAL" xml:space="preserve">
+    <value>Bad Material</value>
+  </data>
+  <data name="ER4108_SHORT" xml:space="preserve">
+    <value>Short Circuit</value>
+  </data>
+  <data name="ER4109_OPEN" xml:space="preserve">
+    <value>Open Circuit</value>
+  </data>
+  <data name="ER4110_MISWIRE" xml:space="preserve">
+    <value>Miswire</value>
+  </data>
+  <data name="ER4111_OPEN_MISWIRE" xml:space="preserve">
+    <value>Open + Miswire</value>
+  </data>
+  <data name="ER4112_SHORT_MISWIRE" xml:space="preserve">
+    <value>Short + Miswire</value>
+  </data>
+  <data name="ER4113_OPEN_SHORT" xml:space="preserve">
+    <value>Open + Short</value>
+  </data>
+  <data name="ER4114_OPEN_SHORT_MISWIRE" xml:space="preserve">
+    <value>Open + Short + Miswire</value>
+  </data>
+  <data name="ER4352_" xml:space="preserve">
+    <value>/***************    BUTTON  FAILURES    ***************/</value>
+  </data>
+  <data name="ER4352_PB_ALWAYS_ON" xml:space="preserve">
+    <value>Push Button Always On</value>
+  </data>
+  <data name="ER4353_PB_ALWAYS_OFF" xml:space="preserve">
+    <value>Push Button Always Off</value>
+  </data>
+  <data name="ER4354_CODEGATE_BTN_ALWAYS_ON" xml:space="preserve">
+    <value>Code Gate Button Always On</value>
+  </data>
+  <data name="ER4355_CODEGATE_BTN_ALWAYS_OFF" xml:space="preserve">
+    <value>Code Gate Button Always Off</value>
+  </data>
+  <data name="ER4356_SNGL_LINE_BTN_ALWAYS_ON" xml:space="preserve">
+    <value>Single Line Button Always On</value>
+  </data>
+  <data name="ER4357_SNGL_LINE_BTN_ALWAYS_OFF" xml:space="preserve">
+    <value>Single Line Button Always Off</value>
+  </data>
+  <data name="ER4358_ASIC_NOT_PULLED_UP" xml:space="preserve">
+    <value>ASIC Not Pulled Up</value>
+  </data>
+  <data name="ER4359_BUTTON1_ALWAYS_ON" xml:space="preserve">
+    <value>Button 1 Always On</value>
+  </data>
+  <data name="ER4360_BUTTON1_ALWAYS_OFF" xml:space="preserve">
+    <value>Button 1 Always Off</value>
+  </data>
+  <data name="ER4361_BUTTON2_ALWAYS_ON" xml:space="preserve">
+    <value>Button 2 Always On</value>
+  </data>
+  <data name="ER4362_BUTTON2_ALWAYS_OFF" xml:space="preserve">
+    <value>Button 2 Always Off</value>
+  </data>
+  <data name="ER4363_BUTTON3_ALWAYS_ON" xml:space="preserve">
+    <value>Button 3 Always On</value>
+  </data>
+  <data name="ER4364_BUTTON3_ALWAYS_OFF" xml:space="preserve">
+    <value>Button 3 Always Off</value>
+  </data>
+  <data name="ER4365_TRIGGER_ALWAYS_ON" xml:space="preserve">
+    <value>Trigger Always On</value>
+  </data>
+  <data name="ER4366_TRIGGER_ALWAYS_OFF" xml:space="preserve">
+    <value>Trigger Always Off</value>
+  </data>
+  <data name="ER4367_EX_ALEAYS_ON" xml:space="preserve">
+    <value>External Wake Always On</value>
+    <comment>External Wake Always On</comment>
+  </data>
+  <data name="ER4368_EX_ALEAYS_OFF" xml:space="preserve">
+    <value>External Wake Always Off</value>
+    <comment>External Wake Always Off</comment>
+  </data>
+  <data name="ER4369_BUTTON_VOLUME" xml:space="preserve">
+    <value>Volume Button Failure</value>
+    <comment>Volume Button Failure</comment>
+  </data>
+  <data name="ER4608_" xml:space="preserve">
+    <value>/***************     MISC  FAILURES     ***************/</value>
+  </data>
+  <data name="ER4608_REED_SWITCH" xml:space="preserve">
+    <value>Reed Switch Failure</value>
+  </data>
+  <data name="ER4609_EAS_SHORT" xml:space="preserve">
+    <value>EAS Short</value>
+  </data>
+  <data name="ER4610_EAS_OPEN" xml:space="preserve">
+    <value>EAS Open</value>
+  </data>
+  <data name="ER4611_REFLECTION" xml:space="preserve">
+    <value>Reflection Fail</value>
+  </data>
+  <data name="ER4612_ILLUMINATION" xml:space="preserve">
+    <value>Illumination Failure</value>
+  </data>
+  <data name="ER4613_NO_BOARD" xml:space="preserve">
+    <value>No Board</value>
+  </data>
+  <data name="ER4614_PEAK_DATA" xml:space="preserve">
+    <value>Peak Data Error</value>
+  </data>
+  <data name="ER4615_DECAY_TIME" xml:space="preserve">
+    <value>Decay Time Error</value>
+  </data>
+  <data name="ER4616_LOW_BNDGP_REF_VOLT" xml:space="preserve">
+    <value>Bandgap Ref Voltage Low</value>
+  </data>
+  <data name="ER4617_HI_BNDGP_REF_VOLT" xml:space="preserve">
+    <value>Bandgap Ref Voltage High</value>
+  </data>
+  <data name="ER4618_LOW_THREE_VOLT" xml:space="preserve">
+    <value>3.3 Voltage High</value>
+  </data>
+  <data name="ER4619_HI_THREE_VOLT" xml:space="preserve">
+    <value>3.3 Voltage Low</value>
+  </data>
+  <data name="ER4620_TWELVE_VOLT" xml:space="preserve">
+    <value>+12 Voltage Failed</value>
+  </data>
+  <data name="ER4621_MIN_TWELVE_VOLT" xml:space="preserve">
+    <value>-12 Voltage Failed</value>
+  </data>
+  <data name="ER4622_FLASH" xml:space="preserve">
+    <value>Failed to Flash Board</value>
+  </data>
+  <data name="ER4623_VREF_LOW" xml:space="preserve">
+    <value>Low VREF Voltage</value>
+  </data>
+  <data name="ER4624_VREF_HIGH" xml:space="preserve">
+    <value>High VREF Voltage</value>
+  </data>
+  <data name="ER4625_VREF2_LOW" xml:space="preserve">
+    <value>Low VREF/2 Voltage</value>
+  </data>
+  <data name="ER4626_VREF2_HIGH" xml:space="preserve">
+    <value>High VREF/2 Voltage</value>
+  </data>
+  <data name="ER4627_ADC" xml:space="preserve">
+    <value>ADC Error</value>
+  </data>
+  <data name="ER4628_POS_THRESHOLD" xml:space="preserve">
+    <value>Positive Threshold Error</value>
+  </data>
+  <data name="ER4629_NEG_THRESHOLD" xml:space="preserve">
+    <value>Negative Threshold Error</value>
+  </data>
+  <data name="ER4630_PLUS_FIVE" xml:space="preserve">
+    <value>+5V Failure</value>
+  </data>
+  <data name="ER4631_PLUS_FIVE_RIPPLE" xml:space="preserve">
+    <value>+5V Ripple Failure</value>
+  </data>
+  <data name="ER4632_MIN_FIVE" xml:space="preserve">
+    <value>-5V Failure</value>
+  </data>
+  <data name="ER4633_TWO_SEVEN" xml:space="preserve">
+    <value>2.7V Failure</value>
+  </data>
+  <data name="ER4634_ONE_EIGHT" xml:space="preserve">
+    <value>1.8V Failure</value>
+  </data>
+  <data name="ER4635_LOW_LINE" xml:space="preserve">
+    <value>Low Line Power Up Failure</value>
+  </data>
+  <data name="ER4636_HIGH_LINE" xml:space="preserve">
+    <value>High Line Power Up Failure</value>
+  </data>
+  <data name="ER4637_LOW_FOCAL_DISTANCE" xml:space="preserve">
+    <value>Low Focal Distance</value>
+  </data>
+  <data name="ER4638_HIGH_FOCAL_DISTANCE" xml:space="preserve">
+    <value>High Focal Distance</value>
+  </data>
+  <data name="ER4639_ONE_THREE_LOW" xml:space="preserve">
+    <value>Low 1.3V Failure</value>
+  </data>
+  <data name="ER4640_ONE_THREE_HIGH" xml:space="preserve">
+    <value>High 1.3V Failure</value>
+  </data>
+  <data name="ER4641_TWO_FIVE_LOW" xml:space="preserve">
+    <value>Low 2.5V Failure</value>
+  </data>
+  <data name="ER4642_TWO_FIVE_HIGH" xml:space="preserve">
+    <value>High 2.5V Failure</value>
+  </data>
+  <data name="ER4643_POWER_UP" xml:space="preserve">
+    <value>Power Up Failure</value>
+  </data>
+  <data name="ER4644_VOLT_GEN" xml:space="preserve">
+    <value>Voltage Generated Failure</value>
+  </data>
+  <data name="ER4645_CONNECTOR" xml:space="preserve">
+    <value>Connector Continuity Failure</value>
+  </data>
+  <data name="ER4646_GROUND" xml:space="preserve">
+    <value>Ground Continuity Failure</value>
+  </data>
+  <data name="ER4647_AVG_NOISE" xml:space="preserve">
+    <value>Avg Noise Failure</value>
+  </data>
+  <data name="ER4648_PEAK_NOISE" xml:space="preserve">
+    <value>Peak Noise Failure</value>
+  </data>
+  <data name="ER4649_FIXTURE_FAILURE" xml:space="preserve">
+    <value>Fixture Failure</value>
+  </data>
+  <data name="ER4650_HALL_SWITCH_ON" xml:space="preserve">
+    <value>Hall Switch On Failure</value>
+  </data>
+  <data name="ER4651_HALL_SWITCH_OFF" xml:space="preserve">
+    <value>Hall Switch Off Failure</value>
+  </data>
+  <data name="ER4652_EAS_INTERLOCK" xml:space="preserve">
+    <value>EAS Interlock Failure</value>
+  </data>
+  <data name="ER4653_EAS_TAG_CLEAR" xml:space="preserve">
+    <value>EAS Tag Clear Failure</value>
+  </data>
+  <data name="ER4654_EAS_SENSORMATIC" xml:space="preserve">
+    <value>EAS Sensormatic Failure</value>
+  </data>
+  <data name="ER4655_CHECK_PARTS" xml:space="preserve">
+    <value>Supplier Issues</value>
+  </data>
+  <data name="ER4656_ONE_WIRE" xml:space="preserve">
+    <value>One Wire Failure</value>
+  </data>
+  <data name="ER4657_ONE" xml:space="preserve">
+    <value>+1.0 Volt Failure</value>
+  </data>
+  <data name="ER4658_THREE" xml:space="preserve">
+    <value>+3.0 Volt Failure</value>
+  </data>
+  <data name="ER4659_FOUR_FIVE" xml:space="preserve">
+    <value>+4.5 Volt Failure</value>
+  </data>
+  <data name="ER4660_PSOC_REV" xml:space="preserve">
+    <value>Incorrect PSOC Revision</value>
+  </data>
+  <data name="ER4661_POWER_DOWN" xml:space="preserve">
+    <value>Power Down Failure</value>
+  </data>
+  <data name="ER4662_HW_TOKEN" xml:space="preserve">
+    <value>Hardware Token Failure</value>
+  </data>
+  <data name="ER4663_LASER_NETWORK" xml:space="preserve">
+    <value>Failed to Save Laser Data to Network</value>
+  </data>
+  <data name="ER4664_ONE_FOUR_FIVE" xml:space="preserve">
+    <value>+1.45 Volt Failure</value>
+  </data>
+  <data name="ER4665_SERIAL_GEN" xml:space="preserve">
+    <value>Failed to Generate Serial Numbers</value>
+  </data>
+  <data name="ER4864_" xml:space="preserve">
+    <value>/***************     FOCUS  FAILURES     ***************/</value>
+  </data>
+  <data name="ER4864_IR_GET" xml:space="preserve">
+    <value>Illumination IR Get Failure</value>
+  </data>
+  <data name="ER4865_EXPOSURE" xml:space="preserve">
+    <value>Exposure Failure</value>
+  </data>
+  <data name="ER4866_EXP_FAR" xml:space="preserve">
+    <value>Exposure Far Failure</value>
+  </data>
+  <data name="ER4867_EXP_NEAR" xml:space="preserve">
+    <value>Exposure Near Failure</value>
+  </data>
+  <data name="ER4868_EXP_LINEAR" xml:space="preserve">
+    <value>Exposure Linear Failure</value>
+  </data>
+  <data name="ER4869_CAM_TEST" xml:space="preserve">
+    <value>Camera Test Failure</value>
+  </data>
+  <data name="ER4870_ECHO_DATA" xml:space="preserve">
+    <value>Echo Data Error</value>
+  </data>
+  <data name="ER4871_ILLUM_NEAR" xml:space="preserve">
+    <value>Illumination Near Failure</value>
+  </data>
+  <data name="ER4872_ILLUM_FAR" xml:space="preserve">
+    <value>Illumination Far Failure</value>
+  </data>
+  <data name="ER4873_ILLUM_LINEAR" xml:space="preserve">
+    <value>Illumination Linear Failure</value>
+  </data>
+  <data name="ER4874_PIXEL_TEST" xml:space="preserve">
+    <value>Pixel Test Failure</value>
+  </data>
+  <data name="ER4875_28_VOLT" xml:space="preserve">
+    <value>28 Volt Failure</value>
+  </data>
+  <data name="ER4876_TOP_FAR" xml:space="preserve">
+    <value>Top Far Failure</value>
+  </data>
+  <data name="ER4877_TOP_NEAR" xml:space="preserve">
+    <value>Top Near Failure</value>
+  </data>
+  <data name="ER4878_BOTTOM_FAR" xml:space="preserve">
+    <value>Bottom Far Failure</value>
+  </data>
+  <data name="ER4879_BOTTOM_NEAR" xml:space="preserve">
+    <value>Bottom Near Failure</value>
+  </data>
+  <data name="ER4880_ILLUM_TARG" xml:space="preserve">
+    <value>Illumination Targeting Failure</value>
+  </data>
+  <data name="ER4881_ILLUM_TOP" xml:space="preserve">
+    <value>Illumination Top Failure</value>
+  </data>
+  <data name="ER4882_ILLUM_BOTTOM" xml:space="preserve">
+    <value>Illumination Bottom Failure</value>
+  </data>
+  <data name="ER4883_LOW_FREQ" xml:space="preserve">
+    <value>Low Frequency</value>
+  </data>
+  <data name="ER4884_HIGH_FREQ" xml:space="preserve">
+    <value>High Frequency</value>
+  </data>
+  <data name="ER4885_LOW_DUTY_CYCLE" xml:space="preserve">
+    <value>Low Duty Cycle</value>
+  </data>
+  <data name="ER4886_HIGH_DUTY_CYCLE" xml:space="preserve">
+    <value>High Duty Cycle</value>
+  </data>
+  <data name="ER4887_CAMERA_SPOT" xml:space="preserve">
+    <value>Camera Spot Failure</value>
+  </data>
+  <data name="ER4888_MTF" xml:space="preserve">
+    <value>MTF Failure</value>
+  </data>
+  <data name="ER4889_MEMTEST" xml:space="preserve">
+    <value>Memtest Failure</value>
+  </data>
+  <data name="ER4890_DAC1_VOLT" xml:space="preserve">
+    <value>Dac1 Voltage Failure</value>
+  </data>
+  <data name="ER4891_DAC2_VOLT" xml:space="preserve">
+    <value>Dac2 Voltage Failure</value>
+  </data>
+  <data name="ER4892_LOW_PULSE_WIDTH1" xml:space="preserve">
+    <value>Low Pulse Width 1</value>
+  </data>
+  <data name="ER4893_HI_PULSE_WIDTH1" xml:space="preserve">
+    <value>High Pulse Width 1</value>
+  </data>
+  <data name="ER4894_LOW_PULSE_WIDTH2" xml:space="preserve">
+    <value>Low Pulse Width 2</value>
+  </data>
+  <data name="ER4895_HI_PULSE_WIDTH2" xml:space="preserve">
+    <value>High Pulse Width 2</value>
+  </data>
+  <data name="ER4896_CALCULATE_CENTER" xml:space="preserve">
+    <value>Failed to Calculate Center</value>
+  </data>
+  <data name="ER4897_OFFSET_OUT" xml:space="preserve">
+    <value>Offset Out of Spec</value>
+  </data>
+  <data name="ER4898_LOW_TARG_CUR" xml:space="preserve">
+    <value>Low Target LED Current</value>
+  </data>
+  <data name="ER4899_HI_TARG_CUR" xml:space="preserve">
+    <value>High Target LED Current</value>
+  </data>
+  <data name="ER4900_PULSE_WIDTH1_RISE" xml:space="preserve">
+    <value>Pulse Width 1 Rise</value>
+  </data>
+  <data name="ER4901_PULSE_WIDTH2_RISE" xml:space="preserve">
+    <value>Pulse Width 2 Rise</value>
+  </data>
+  <data name="ER4902_ILLUM_AREA" xml:space="preserve">
+    <value>Illumination Area Failure</value>
+  </data>
+  <data name="ER4903_ILLUM_POWER" xml:space="preserve">
+    <value>Illumination Power Failure</value>
+  </data>
+  <data name="ER4904_TEST_FLEX_IMAGER_DATA" xml:space="preserve">
+    <value>Failed Test Flex Imager Data</value>
+  </data>
+  <data name="ER4905_TEST_FLEX_STRUCT_TEST" xml:space="preserve">
+    <value>Failed Test Flex Structure Test</value>
+  </data>
+  <data name="ER4906_BAR_PATTERN" xml:space="preserve">
+    <value>Bar Pattern Failure</value>
+    <comment>Bar Pattern Failure</comment>
+  </data>
+  <data name="ER4907_ACC_MMA8451Q" xml:space="preserve">
+    <value>Accelerometer MMA8451Q</value>
+    <comment>Accelerometer MMA8451Q</comment>
+  </data>
+  <data name="ER4908_ACC_FXOS8700" xml:space="preserve">
+    <value>Accelerometer FXOS8700</value>
+    <comment>Accelerometer FXOS8700</comment>
+  </data>
+  <data name="ER4909_MAGNET" xml:space="preserve">
+    <value>Board Magnet</value>
+    <comment>Board Magnet</comment>
+  </data>
+  <data name="ER4910_GYRO" xml:space="preserve">
+    <value>Board Gyro</value>
+    <comment>Board Gyro</comment>
+  </data>
+  <data name="ER4911_ACC_LIS3DHTR" xml:space="preserve">
+    <value>Accelerometer LIS3DHTR</value>
+    <comment>Accelerometer LIS3DHTR</comment>
+  </data>
+  <data name="ER4912_RELAY" xml:space="preserve">
+    <value>Board Relay</value>
+    <comment>Board Relay</comment>
+  </data>
+  <data name="ER4913_DIGITALIN_A" xml:space="preserve">
+    <value>Digital IN A</value>
+    <comment>Digital IN A</comment>
+  </data>
+  <data name="ER4914_DIGITALIN_B" xml:space="preserve">
+    <value>Digital IN B</value>
+    <comment>Digital IN B</comment>
+  </data>
+  <data name="ER4914_DIGITALIN_C" xml:space="preserve">
+    <value>Digital IN C</value>
+    <comment>Digital IN C</comment>
+  </data>
+  <data name="ER4915_APL" xml:space="preserve">
+    <value>APL Failure</value>
+    <comment>APL Failure</comment>
+  </data>
+  <data name="ER4916_CAL_ACC8_TB" xml:space="preserve">
+    <value>Calibrate Top and Bottom ACC8</value>
+    <comment>Calibrate Top and Bottom ACC8</comment>
+  </data>
+  <data name="ER4917_CAL_ACC8_XX" xml:space="preserve">
+    <value>Calibrate X+ and X- ACC8</value>
+    <comment>Calibrate X+ and X- ACC8</comment>
+  </data>
+  <data name="ER4918_CAL_ACC8_YY" xml:space="preserve">
+    <value>Calibrate Y+ and Y- ACC8</value>
+    <comment>Calibrate Y+ and Y- ACC8</comment>
+  </data>
+  <data name="ER4919_CAL_ACC16_C1C2" xml:space="preserve">
+    <value>Calibrate C1 and C2 ACC16</value>
+    <comment>Calibrate C1 and C2 ACC16</comment>
+  </data>
+  <data name="ER4920_CAL_ACC16_C3C4" xml:space="preserve">
+    <value>Calibrate C3 and C4 ACC16</value>
+    <comment>Calibrate C3 and C4 ACC16</comment>
+  </data>
+  <data name="ER4921_CAL_ACC16_TB" xml:space="preserve">
+    <value>Calibrate Top and Bottom ACC16</value>
+    <comment>Calibrate Top and Bottom ACC16</comment>
+  </data>
+  <data name="ER4922_SST" xml:space="preserve">
+    <value>Sensor Self Test</value>
+    <comment>Sensor Self Test</comment>
+  </data>
+  <data name="ER4923_BN" xml:space="preserve">
+    <value>Bench Number</value>
+    <comment>Bench Number</comment>
+  </data>
+  <data name="ER4924_BRD_REV_RETRI" xml:space="preserve">
+    <value>Board Revision Retrieval</value>
+    <comment>Board Revision Retrieval</comment>
+  </data>
+  <data name="ER4925_FR" xml:space="preserve">
+    <value>Firmware Retrieval</value>
+    <comment>Firmware Retrieval</comment>
+  </data>
+  <data name="ER4926_BD" xml:space="preserve">
+    <value>Bad Data</value>
+    <comment>Bad Data</comment>
+  </data>
+  <data name="ER4927_FOUR_TWO" xml:space="preserve">
+    <value>4.2 Volt Failure</value>
+    <comment>4.2 Volt Failure</comment>
+  </data>
+  <data name="ER4928_HDSET_LABEL" xml:space="preserve">
+    <value>Headset Label Failure</value>
+    <comment>Headset Label Failure</comment>
+  </data>
+  <data name="ER4929_EPROM_SYS" xml:space="preserve">
+    <value>EEPROM - SYSINFO Failure</value>
+    <comment>EEPROM - SYSINFO Failure</comment>
+  </data>
+  <data name="ER4930_EPROM_EC" xml:space="preserve">
+    <value>EEPROM - EndCap Failure</value>
+    <comment>EEPROM - EndCap Failure</comment>
+  </data>
+  <data name="ER5120_" xml:space="preserve">
+    <value>/***************    BLUETOOTH  FAILURES    ***************/</value>
+  </data>
+  <data name="ER5120_BT_CONNECT" xml:space="preserve">
+    <value>Bluetooth Connect Failure</value>
+  </data>
+  <data name="ER5121_DC_STEP_UP" xml:space="preserve">
+    <value>DC Step Up Failure</value>
+  </data>
+  <data name="ER5122_BATTERY_VOLT" xml:space="preserve">
+    <value>Battery Voltage Failure</value>
+  </data>
+  <data name="ER5123_FRAM" xml:space="preserve">
+    <value>Fram Error</value>
+  </data>
+  <data name="ER5124_BT_TERMID" xml:space="preserve">
+    <value>Incorrect term ID</value>
+    <comment>Incorrect term ID</comment>
+  </data>
+  <data name="ER5376_" xml:space="preserve">
+    <value>/***************    GPS  FAILURES    ***************/</value>
+  </data>
+  <data name="ER5376_GPS_RX_STATUS" xml:space="preserve">
+    <value>GPS Receive Status Failure</value>
+  </data>
+  <data name="ER5377_GPS_TX_POWER" xml:space="preserve">
+    <value>GPS Transmit Power Failure</value>
+  </data>
+  <data name="ER5378_GPS_TX_CURRENT" xml:space="preserve">
+    <value>GPS Transmit Current Failure</value>
+  </data>
+  <data name="ER5379_GPS_LONGITUDE" xml:space="preserve">
+    <value>GPS Longitude Failure</value>
+  </data>
+  <data name="ER5380_GPS_LATITUDE" xml:space="preserve">
+    <value>GPS Latitude Failure</value>
+  </data>
+  <data name="ER5381_GPS_CHANNEL" xml:space="preserve">
+    <value>GPS Channel Number Failure</value>
+  </data>
+  <data name="ER5410_IO_READY" xml:space="preserve">
+    <value>CHIP_READY I/O Failure</value>
+    <comment>CHIP_READY I/O Failure</comment>
+  </data>
+  <data name="ER5411_IO_RESET" xml:space="preserve">
+    <value>RESET I/O Failure</value>
+    <comment>RESET I/O Failure</comment>
+  </data>
+  <data name="ER5412_IO_WAKEUP" xml:space="preserve">
+    <value>WAKEUP I/O Failure</value>
+    <comment>WAKEUP I/O Failure</comment>
+  </data>
+  <data name="ER5413_IO_UPSLEEP" xml:space="preserve">
+    <value>UP_SLEEP I/O Failure</value>
+    <comment>UP_SLEEP I/O Failure</comment>
+  </data>
+  <data name="ER5414_IO_PMODE" xml:space="preserve">
+    <value>PMODE I/O Failure</value>
+    <comment>PMODE I/O Failure</comment>
+  </data>
+  <data name="ER5415_IO_USBPWRSTAT" xml:space="preserve">
+    <value>USB_PWR_STAT I/O Failure</value>
+    <comment>USB_PWR_STAT I/O Failure</comment>
+  </data>
+  <data name="ER5416_IO_USBDIODEBYPASS" xml:space="preserve">
+    <value>USB_DIODE_BYPASS I/O Failure</value>
+    <comment>USB_DIODE_BYPASS I/O Failure</comment>
+  </data>
+  <data name="ER5417_IO_ADAP_PWRSTAT" xml:space="preserve">
+    <value>ADAPTER_PWR_STAT I/O Failure</value>
+    <comment>ADAPTER_PWR_STAT I/O Failure</comment>
+  </data>
+  <data name="ER5418_IO_ADAP_DIODEBYPASS" xml:space="preserve">
+    <value>ADAPTER_DIODE_BYPASS I/O Failure</value>
+    <comment>ADAPTER_DIODE_BYPASS I/O Failure</comment>
+  </data>
+  <data name="ER5419_IO_ADC_IN_EN" xml:space="preserve">
+    <value>ADC_IN_EN I/O Failure</value>
+    <comment>ADC_IN_EN I/O Failure</comment>
+  </data>
+  <data name="ER5420_IO_CHGEN" xml:space="preserve">
+    <value>CHG_EN I/O Failure</value>
+    <comment>CHG_EN I/O Failure</comment>
+  </data>
+  <data name="ER5421_IO_AIM_IN" xml:space="preserve">
+    <value>AIM_IN I/O Failure</value>
+    <comment>AIM_IN I/O Failure</comment>
+  </data>
+  <data name="ER5422_NTRIG" xml:space="preserve">
+    <value>nTRIG I/O Failure</value>
+    <comment>nTRIG I/O Failure</comment>
+  </data>
+  <data name="ER6001_IOS_FINAL" xml:space="preserve">
+    <value>iOS Final Test Result Failure</value>
+    <comment>iOS Final Test Result Failure</comment>
+  </data>
+  <data name="ER6002_PRECHECK" xml:space="preserve">
+    <value>Check Pre Station Failure</value>
+    <comment>Check Pre Station Failure</comment>
+  </data>
+  <data name="ER6003_FW_CHECK" xml:space="preserve">
+    <value>Firmware Verification Failure</value>
+    <comment>Firmware Verification Failure</comment>
+  </data>
+  <data name="ER6201_ENT_DLMODE" xml:space="preserve">
+    <value>Failure Enter download mode</value>
+    <comment>Failure Enter download mode</comment>
+  </data>
+  <data name="ER6202_PRE_DL" xml:space="preserve">
+    <value>Pre-download failed</value>
+    <comment>Pre-download failed</comment>
+  </data>
+  <data name="ER6401_MDCS_DB_CON" xml:space="preserve">
+    <value>Database Connection Failure</value>
+    <comment>Database Connection Failure</comment>
+  </data>
+  <data name="ER6402_MDCS_SQL" xml:space="preserve">
+    <value>SQL Execute failure</value>
+    <comment>SQL Execute failure</comment>
+  </data>
+  <data name="ER6701_LABEL_PRINT" xml:space="preserve">
+    <value>Label Print Failure</value>
+    <comment>Label Print Failure</comment>
+  </data>
+  <data name="ER6751_MSR" xml:space="preserve">
+    <value>MSR Test Failure</value>
+    <comment>MSR Test Failure</comment>
+  </data>
+  <data name="ER6761_SCN_TOUCH" xml:space="preserve">
+    <value>Screen Touch Test Failure</value>
+    <comment>Screen Touch Test Failure</comment>
+  </data>
+  <data name="ER6771_PVIEW" xml:space="preserve">
+    <value>Proximity View Test Failure</value>
+    <comment>Proximity View Test Failure</comment>
+  </data>
+  <data name="ER7001_GET_MAC" xml:space="preserve">
+    <value>Can't Get Product MAC</value>
+    <comment>Can't Get Product MAC</comment>
+  </data>
+  <data name="ER7002_CONNECTION" xml:space="preserve">
+    <value>IP Connection Fail</value>
+    <comment>IP Connection Fail</comment>
+  </data>
+  <data name="ER7003_MAC_OUTSCOPE" xml:space="preserve">
+    <value>MAC Is Out Of Scope</value>
+    <comment>MAC Is Out Of Scope</comment>
+  </data>
+  <data name="ER7004_WRITE_MAC" xml:space="preserve">
+    <value>Write MAC Fail</value>
+    <comment>Write MAC Fail</comment>
+  </data>
+  <data name="ER7005_LANTEST" xml:space="preserve">
+    <value>LAN Test Fail</value>
+    <comment>LAN Test Fail</comment>
+  </data>
+  <data name="ER7006_WLANTEST" xml:space="preserve">
+    <value>WLAN Test Fail</value>
+    <comment>WLAN Test Fail</comment>
+  </data>
+  <data name="ER7007_MAC_FORMAT" xml:space="preserve">
+    <value>MAC Format Incorret</value>
+    <comment>MAC Format Incorret</comment>
+  </data>
+  <data name="ER7020_SN_GEN" xml:space="preserve">
+    <value>SN Generation Fail</value>
+    <comment>SN Generation Fail</comment>
+  </data>
+  <data name="ER7021_SNMAC_MISMATCH" xml:space="preserve">
+    <value>SN and MAC not conrresponding</value>
+    <comment>SN and MAC not conrresponding</comment>
+  </data>
+  <data name="ER7022_SN_LENGTH" xml:space="preserve">
+    <value>SN Length Fail</value>
+    <comment>SN Length Fail</comment>
+  </data>
+  <data name="ER8000_Low_BM" xml:space="preserve">
+    <value>Low BM Fail</value>
+    <comment>Low BM Fail</comment>
+  </data>
+  <data name="ER8001_HIGH_BM" xml:space="preserve">
+    <value>High BM Fail</value>
+    <comment>High BM Fail</comment>
+  </data>
+  <data name="ER8002_LOW_BS_BLK" xml:space="preserve">
+    <value>BM Sensor Black Label Low</value>
+    <comment>BM Sensor Black Label Low</comment>
+  </data>
+  <data name="ER8003_HIGH_BS_BLK" xml:space="preserve">
+    <value>BM Sensor Black Label High</value>
+    <comment>BM Sensor Black Label High</comment>
+  </data>
+  <data name="ER8004_LOW_BS_WHT" xml:space="preserve">
+    <value>BM Sensor White Label Low</value>
+    <comment>BM Sensor White Label Low</comment>
+  </data>
+  <data name="ER8005_HIGH_BS_WHT" xml:space="preserve">
+    <value>BM Sensor White Label High</value>
+    <comment>BM Sensor White Label High</comment>
+  </data>
+  <data name="ER8006_LOW_BS_DELTA" xml:space="preserve">
+    <value>BM Sensor White Black Delta Low</value>
+    <comment>BM Sensor White Black Delta Low</comment>
+  </data>
+  <data name="ER8007_LOW_BS_DELTA" xml:space="preserve">
+    <value>BM Sensor White Black Delta High</value>
+    <comment>BM Sensor White Black Delta High</comment>
+  </data>
+  <data name="ER8030_LOW_LSS" xml:space="preserve">
+    <value>Low LSS Fail</value>
+    <comment>Low LSS Fail</comment>
+  </data>
+  <data name="ER8031_HIGH_LSS" xml:space="preserve">
+    <value>High LSS Fail</value>
+    <comment>High LSS Fail</comment>
+  </data>
+  <data name="ER8032_LOW_LSS_LABEL_LEN" xml:space="preserve">
+    <value>LSS Label Length Low</value>
+    <comment>LSS Label Length Low</comment>
+  </data>
+  <data name="ER8033_HIGH_LSS_LABEL_LEN" xml:space="preserve">
+    <value>LSS Label Length High</value>
+    <comment>LSS Label Length High</comment>
+  </data>
+  <data name="ER8034_LOW_LSS_RS" xml:space="preserve">
+    <value>LSS Ribbon Sensor Low</value>
+    <comment>LSS Ribbon Sensor Low</comment>
+  </data>
+  <data name="ER8035_HIGH_LSS_RS" xml:space="preserve">
+    <value>LSS Ribbon Sensor High</value>
+    <comment>LSS Ribbon Sensor High</comment>
+  </data>
+  <data name="ER8036_LOW_LSS_SLL_DELTA" xml:space="preserve">
+    <value>LSS Sensor Liner Label Delta Low</value>
+    <comment>LSS Sensor Liner Label Delta Low</comment>
+  </data>
+  <data name="ER8037_HIGH_LSS_SLL_DELTA" xml:space="preserve">
+    <value>LSS Sensor Liner Label Delta High</value>
+    <comment>LSS Sensor Liner Label Delta High</comment>
+  </data>
+  <data name="ER8038_LOW_LSS_SBL" xml:space="preserve">
+    <value>LSS Sensor Blank Label Low</value>
+    <comment>LSS Sensor Blank Label Low</comment>
+  </data>
+  <data name="ER8039_HIGH_LSS_SBL" xml:space="preserve">
+    <value>LSS Sensor Blank Label High</value>
+    <comment>LSS Sensor Blank Label High</comment>
+  </data>
+  <data name="ER8040_LOW_LSS_SWL" xml:space="preserve">
+    <value>LSS Sensor White Label Low</value>
+    <comment>LSS Sensor White Label Low</comment>
+  </data>
+  <data name="ER8041_HIGH_LSS_SWL" xml:space="preserve">
+    <value>LSS Sensor White Label High</value>
+    <comment>LSS Sensor White Label High</comment>
+  </data>
+  <data name="ER8042_LSS_TESTFEED" xml:space="preserve">
+    <value>LSS Testfeed Fail</value>
+    <comment>LSS Testfeed Fail</comment>
+  </data>
+  <data name="ER8060_MTR_HEADLIFT" xml:space="preserve">
+    <value>Motor Headlift Fail</value>
+    <comment>Motor Headlift Fail</comment>
+  </data>
+  <data name="ER8061_MTR_LABEL" xml:space="preserve">
+    <value>Motor Label Not Found</value>
+    <comment>Motor Label Not Found</comment>
+  </data>
+  <data name="ER8062_MTR_OUTRIBBON" xml:space="preserve">
+    <value>Motor Out Ribbon Fail</value>
+    <comment>Motor Out Ribbon Fail</comment>
+  </data>
+  <data name="ER8063_MTR_TESTFEED" xml:space="preserve">
+    <value>Motor Testfeed Fail</value>
+    <comment>Motor Testfeed Fail</comment>
+  </data>
+  <data name="ER8080_RIBBON" xml:space="preserve">
+    <value>Ribbon Failure</value>
+    <comment>Ribbon Failure</comment>
+  </data>
+  <data name="ER8090_HEADLIFT" xml:space="preserve">
+    <value>Headlift Failure</value>
+    <comment>Headlift Failure</comment>
+  </data>
+  <data name="ER8100_WRITE_EPROM" xml:space="preserve">
+    <value>Program EEPROM Fail</value>
+    <comment>Program EEPROM Fail</comment>
+  </data>
+  <data name="ER8101_READ_EPROM" xml:space="preserve">
+    <value>Read EEPROM Fail</value>
+    <comment>Read EEPROM Fail</comment>
+  </data>
+  <data name="ER8102_VCOM" xml:space="preserve">
+    <value>Virtual Com Not Found</value>
+    <comment>Virtual Com Not Found</comment>
+  </data>
+  <data name="ER8103_WRONG_ID" xml:space="preserve">
+    <value>Wrong Printer ID</value>
+    <comment>Wrong Printer ID</comment>
+  </data>
+  <data name="ER8104_CHESS" xml:space="preserve">
+    <value>Chess Failure</value>
+    <comment>Chess Failure</comment>
+  </data>
+  <data name="ER8105_WRINKLE" xml:space="preserve">
+    <value>Wrinkle Failure</value>
+    <comment>Wrinkle Failure</comment>
+  </data>
+  <data name="ER8106_FDFAULT" xml:space="preserve">
+    <value>Factory Default Fail</value>
+    <comment>Factory Default Fail</comment>
+  </data>
+  <data name="ER8200_AUDIO_IN200HZ" xml:space="preserve">
+    <value>Audio Input - 200Hz</value>
+    <comment>Audio Input - 200Hz</comment>
+  </data>
+  <data name="ER8201_AUDIO_IN1500HZ" xml:space="preserve">
+    <value>Audio Input - 1500Hz</value>
+    <comment>Audio Input - 1500Hz</comment>
+  </data>
+  <data name="ER8202_AUDIO_IN4000HZ" xml:space="preserve">
+    <value>Audio Input - 4000Hz</value>
+    <comment>Audio Input - 4000Hz</comment>
+  </data>
+  <data name="ER8203_AUDIO_OUT200HZ" xml:space="preserve">
+    <value>Audio Output - 200Hz</value>
+    <comment>Audio Output - 200Hz</comment>
+  </data>
+  <data name="ER8204_AUDIO_OUT1500HZ" xml:space="preserve">
+    <value>Audio Output - 1500Hz</value>
+    <comment>Audio Output - 1500Hz</comment>
+  </data>
+  <data name="ER8205_AUDIO_OUT4000HZ" xml:space="preserve">
+    <value>Audio Output - 4000Hz</value>
+    <comment>Audio Output - 4000Hz</comment>
+  </data>
+  <data name="ER8206_AUDIO_MSB" xml:space="preserve">
+    <value>Mic Sub Bias</value>
+    <comment>Mic Sub Bias</comment>
+  </data>
+  <data name="ER8230_NFC" xml:space="preserve">
+    <value>NFC failure</value>
+    <comment>NFC failure</comment>
+  </data>
+  <data name="ER8240_BATTERY" xml:space="preserve">
+    <value>Battery Failure</value>
+    <comment>Battery Failure</comment>
+  </data>
+  <data name="ER8250_CHG_MODE" xml:space="preserve">
+    <value>Charger Mode Failure</value>
+    <comment>Charger Mode Failure</comment>
+  </data>
+  <data name="ER8251_CHG_PWRLED" xml:space="preserve">
+    <value>Power LED</value>
+    <comment>Power LED</comment>
+  </data>
+  <data name="ER8252_NCHG_REGISTER" xml:space="preserve">
+    <value>Non-Charging Register Test</value>
+    <comment>Non-Charging Register Test</comment>
+  </data>
+  <data name="ER8253_CHG_REGISTER" xml:space="preserve">
+    <value>Charging Register Test</value>
+    <comment>Charging Register Test</comment>
+  </data>
+  <data name="ER8254_CHG_REDLED" xml:space="preserve">
+    <value>Red Ring LED</value>
+    <comment>Red Ring LED</comment>
+  </data>
+  <data name="ER8255_CHG_YELLOWLED" xml:space="preserve">
+    <value>Yellow Ring LED</value>
+    <comment>Yellow Ring LED</comment>
+  </data>
+  <data name="ER8256_CHG_GERRNLED" xml:space="preserve">
+    <value>Green Ring LED</value>
+    <comment>Green Ring LED</comment>
+  </data>
+  <data name="ER8257_CHG_ALERTLED" xml:space="preserve">
+    <value>Red Alert LED</value>
+    <comment>Red Alert LED</comment>
+  </data>
+  <data name="ER8258_CHG_NOTDET" xml:space="preserve">
+    <value>Charger Not Detected</value>
+    <comment>Charger Not Detected</comment>
+  </data>
+  <data name="ER8260_PWR_FIVE" xml:space="preserve">
+    <value>Peripheral 5V Failure</value>
+    <comment>Peripheral 5V Failure</comment>
+  </data>
+  <data name="ER8261_NO_PWR" xml:space="preserve">
+    <value>No Power - Did Not Boot</value>
+    <comment>No Power - Did Not Boot</comment>
+  </data>
+  <data name="ER9000_" xml:space="preserve">
+    <value>/********    EXTRA  USER-DEFINED FAILURES    ********/</value>
+  </data>
+  <data name="ER9000_EXTRA_NI_INIT" xml:space="preserve">
+    <value>NI board card Init Error:</value>
+  </data>
+  <data name="ER9001_EXTRA_READ_INI_SETTING" xml:space="preserve">
+    <value>Read INI File Error: Config file error,</value>
+  </data>
+  <data name="ER9002_EXTRA_PowerOn_Current" xml:space="preserve">
+    <value>Failure: Power on current not detected.</value>
+  </data>
+  <data name="ER9003_EXTRA_Stop_Test" xml:space="preserve">
+    <value>Failure: Operator stopped test</value>
+  </data>
+  <data name="ER9004_EXTRA_Fixture_INIT" xml:space="preserve">
+    <value>Init Fixture Error:</value>
+  </data>
+</root>

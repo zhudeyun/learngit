@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strAbort" xml:space="preserve">
+    <value>放弃</value>
+    <comment>Abort</comment>
+  </data>
+  <data name="strSN" xml:space="preserve">
+    <value>序列号：</value>
+    <comment>SN:</comment>
+  </data>
+  <data name="strDiagMode" xml:space="preserve">
+    <value>诊断测试模式！！！</value>
+    <comment>TECH-ONLY DIAGNOSTICS MODE!!!</comment>
+  </data>
+  <data name="strBeep" xml:space="preserve">
+    <value>喇叭有声音吗</value>
+    <comment>Did you hear a beep</comment>
+  </data>
+  <data name="strBeginTest" xml:space="preserve">
+    <value>按开始按钮开始测试</value>
+    <comment>Press Start to begin test</comment>
+  </data>
+  <data name="strBOMRev" xml:space="preserve">
+    <value>BOM版本</value>
+    <comment>BOM Rev</comment>
+  </data>
+  <data name="strCLEAR" xml:space="preserve">
+    <value>透明</value>
+    <comment>CLEAR (AS in Non opaque)</comment>
+  </data>
+  <data name="strClearTarget" xml:space="preserve">
+    <value>把扫描器放在镜面板前</value>
+    <comment>Clear target</comment>
+  </data>
+  <data name="strConfigurationSW_Number" xml:space="preserve">
+    <value>Configuration软件号码</value>
+    <comment>Configuration SW Number</comment>
+  </data>
+  <data name="strConnectCableToScanner" xml:space="preserve">
+    <value>请将导线插入扫描仪</value>
+    <comment>Connect cable to scanner</comment>
+  </data>
+  <data name="strConnectUnitToFixture" xml:space="preserve">
+    <value>将产品与治具连接</value>
+    <comment>Connect unit to fixture</comment>
+  </data>
+  <data name="strDescription" xml:space="preserve">
+    <value>描述</value>
+    <comment>Description</comment>
+  </data>
+  <data name="strEnterBagLabel" xml:space="preserve">
+    <value>输入包装袋标签号码</value>
+    <comment>Enter Bag Label</comment>
+  </data>
+  <data name="strEnterProductLabel" xml:space="preserve">
+    <value>输入产品标签号码</value>
+    <comment>Enter Product Label</comment>
+  </data>
+  <data name="strExit" xml:space="preserve">
+    <value>退出</value>
+    <comment>Exit</comment>
+  </data>
+  <data name="strFixtureError" xml:space="preserve">
+    <value>治具故障</value>
+    <comment>Fixture Error:</comment>
+  </data>
+  <data name="strFor5Seconds" xml:space="preserve">
+    <value>持续5秒</value>
+    <comment>For 5 seconds</comment>
+  </data>
+  <data name="strGreenLed" xml:space="preserve">
+    <value>绿灯</value>
+    <comment>Green LEDs</comment>
+  </data>
+  <data name="strInsertAndBeginDiagnostics" xml:space="preserve">
+    <value>把引擎放进治具, 选择诊断测试开始运行.</value>
+    <comment>Insert engine into fixture.  Select Diagnostic Test To Start.</comment>
+  </data>
+  <data name="strInsertAndBeginTest" xml:space="preserve">
+    <value>把引擎放进治具，按开始按钮开始测试</value>
+    <comment>Insert engine into fixture.  Press Start to begin test.</comment>
+  </data>
+  <data name="strIs_the" xml:space="preserve">
+    <value> </value>
+    <comment>Is the (for question use a space no chinese translation)</comment>
+  </data>
+  <data name="strItemNumber" xml:space="preserve">
+    <value>产品代码</value>
+    <comment>Item Number</comment>
+  </data>
+  <data name="strNewRun" xml:space="preserve">
+    <value>按开始按钮进行新的运行</value>
+    <comment>Press Start To Initilize New Run</comment>
+  </data>
+  <data name="strNo" xml:space="preserve">
+    <value>不</value>
+    <comment>No</comment>
+  </data>
+  <data name="strOk" xml:space="preserve">
+    <value>好了</value>
+    <comment>Ok</comment>
+  </data>
+  <data name="strOrUntilMmessageBoxCloses" xml:space="preserve">
+    <value>或者直到信息框关闭</value>
+    <comment>Or until message box closes</comment>
+  </data>
+  <data name="strPleaseScanTheMCA_Number" xml:space="preserve">
+    <value>请扫描MAB号码</value>
+    <comment>Please scan the MCA Number</comment>
+  </data>
+  <data name="strPleaseScanTheMCB_Number" xml:space="preserve">
+    <value>请扫描MCB号码</value>
+    <comment>Please scan the MCB Number</comment>
+  </data>
+  <data name="strPleaseScanTheMCF_Number" xml:space="preserve">
+    <value>请扫描MCF号码</value>
+    <comment>Please scan the MCF Number</comment>
+  </data>
+  <data name="strPowerSupply" xml:space="preserve">
+    <value>初始化(安捷伦)(Agilent)供电设备 。</value>
+    <comment>Initializing Agilent Power Supply . . .</comment>
+  </data>
+  <data name="strPressStartToBeginTest" xml:space="preserve">
+    <value>点击开始进行测试</value>
+    <comment>Press Start to begin test</comment>
+  </data>
+  <data name="strPressTriggerSwitch" xml:space="preserve">
+    <value>按按钮开关</value>
+    <comment>Press trigger switch</comment>
+  </data>
+  <data name="strPrintLabels" xml:space="preserve">
+    <value>打印标签</value>
+    <comment>Print Labels</comment>
+  </data>
+  <data name="strPSOC_Rev" xml:space="preserve">
+    <value>PSOC_版本</value>
+    <comment>PSOC_Rev</comment>
+  </data>
+  <data name="strRED" xml:space="preserve">
+    <value>红色</value>
+    <comment>RED</comment>
+  </data>
+  <data name="strRedLed" xml:space="preserve">
+    <value>红灯</value>
+    <comment>Red LEDs</comment>
+  </data>
+  <data name="strReset" xml:space="preserve">
+    <value>重设</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="strRetry" xml:space="preserve">
+    <value>重试</value>
+    <comment>Retry</comment>
+  </data>
+  <data name="strScan" xml:space="preserve">
+    <value>请扫描条码</value>
+    <comment>Please scan barcode</comment>
+  </data>
+  <data name="strScanTargets" xml:space="preserve">
+    <value>扫描靶</value>
+    <comment>Scan Targets</comment>
+  </data>
+  <data name="strSCAN_ME" xml:space="preserve">
+    <value>请扫描</value>
+    <comment>SCAN ME!</comment>
+  </data>
+  <data name="strSetToPosition" xml:space="preserve">
+    <value>设置到位置</value>
+    <comment>Set to position</comment>
+  </data>
+  <data name="strSetup" xml:space="preserve">
+    <value>设置进行中…</value>
+    <comment>Setup in Progress ....</comment>
+  </data>
+  <data name="strStart" xml:space="preserve">
+    <value>开始</value>
+    <comment>Start</comment>
+  </data>
+  <data name="strStop" xml:space="preserve">
+    <value>停止</value>
+    <comment>Stop</comment>
+  </data>
+  <data name="strSUF_SoftwareNumber" xml:space="preserve">
+    <value>SUF软件号码</value>
+    <comment>SUF Software Number</comment>
+  </data>
+  <data name="strTest" xml:space="preserve">
+    <value>测试</value>
+    <comment>Test</comment>
+  </data>
+  <data name="strTesting" xml:space="preserve">
+    <value>测试进行中…</value>
+    <comment>Testing in Progress ....</comment>
+  </data>
+  <data name="strThankYou" xml:space="preserve">
+    <value>谢谢</value>
+    <comment>Thank You</comment>
+  </data>
+  <data name="strView_window" xml:space="preserve">
+    <value>观察窗口</value>
+    <comment>View window</comment>
+  </data>
+  <data name="strWhiteLed" xml:space="preserve">
+    <value>白灯。</value>
+    <comment>White LEDs</comment>
+  </data>
+  <data name="strPrompt" xml:space="preserve">
+    <value>提示</value>
+    <comment>Prompt</comment>
+  </data>
+  <data name="strMessage" xml:space="preserve">
+    <value>无法通信，请重新插拔连接线！</value>
+    <comment>Communication timeout, Please connect cable once again.</comment>
+  </data>
+  <data name="strYes" xml:space="preserve">
+    <value>是</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="strCancel" xml:space="preserve">
+    <value>取消</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="strFlukeMeter" xml:space="preserve">
+    <value>初始化(福禄克)(Fluke)测量设备 。</value>
+    <comment>Initializing Fluke Meter . . .</comment>
+  </data>
+  <data name="strMotor" xml:space="preserve">
+    <value>初始化马达</value>
+    <comment>Initializing Motor . . .</comment>
+  </data>
+  <data name="strMDCS" xml:space="preserve">
+    <value>数据上传</value>
+    <comment>MDCS</comment>
+  </data>
+  <data name="strProductionMode" xml:space="preserve">
+    <value>生产模式</value>
+    <comment>MDCS Production</comment>
+  </data>
+  <data name="strTestMode" xml:space="preserve">
+    <value>测试模式</value>
+    <comment>MDCS Test</comment>
+  </data>
+  <data name="strView" xml:space="preserve">
+    <value>查看</value>
+    <comment>View</comment>
+  </data>
+  <data name="strViewDebug" xml:space="preserve">
+    <value>显示测试信息</value>
+    <comment>View Debug</comment>
+  </data>
+  <data name="strInvalidSN" xml:space="preserve">
+    <value>无效的序列号</value>
+    <comment>Invalid serial number</comment>
+  </data>
+  <data name="strPressPage" xml:space="preserve">
+    <value>按下Page 按键</value>
+  </data>
+  <data name="strERLEDOFF" xml:space="preserve">
+    <value>红灯灭了吗</value>
+    <comment>Is Red LED off?</comment>
+  </data>
+  <data name="strERLEDON" xml:space="preserve">
+    <value>红灯亮了吗?</value>
+    <comment>Is Red LED on?</comment>
+  </data>
+  <data name="strGRLEDOFF" xml:space="preserve">
+    <value>绿灯灭了吗?</value>
+    <comment>Is Green LED off?</comment>
+  </data>
+  <data name="strGRLEDON" xml:space="preserve">
+    <value>绿灯亮了吗?</value>
+    <comment>Is Green LED on?</comment>
+  </data>
+  <data name="strPutScannerInBase" xml:space="preserve">
+    <value>将 扫描枪放置 Base 中进行蓝牙连接测试</value>
+  </data>
+  <data name="strGreenLedBlink" xml:space="preserve">
+    <value>绿灯闪烁，红灯亮状态吗?</value>
+  </data>
+</root>
